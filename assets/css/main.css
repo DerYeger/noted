@@ -1,0 +1,46 @@
+@import "normalize.css";
+@import "prism-themes/darcula.css";
+@import "theme.css";
+@import "scrollbar.css";
+@import "typography.css";
+@import "utils.css";
+
+html,
+body,
+#__nuxt,
+#__layout {
+  height: 100%;
+}
+
+*:not(:is(pre *, code *)) {
+  font-family: 'Roboto', sans-serif;
+}
+
+.splitpanes__splitter {
+  background: var(--color-lighten-2);
+  cursor: col-resize;
+  position: relative;
+  touch-action: none;
+  width: 1rem;
+}
+
+.splitpanes__splitter::before,
+.splitpanes__splitter::after {
+  background: var(--color-lighten-4);
+  content: "";
+  height: 2rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+
+}
+
+.splitpanes__splitter::before {
+  margin-left: -2px;
+}
+
+.splitpanes__splitter::after {
+  margin-left: 1px;
+}

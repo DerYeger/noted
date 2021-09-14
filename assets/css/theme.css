@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #21141B;
+  --color-secondary: #379C6F;
+  --color-darken-1: rgba(0, 0, 0, 0.2);
+  --color-darken-2: rgba(0, 0, 0, 0.3);
+  --color-lighten-1: rgba(255, 255, 255, 0.05);
+  --color-lighten-2: rgba(255, 255, 255, 0.1);
+  --color-lighten-3: rgba(255, 255, 255, 0.2);
+  --color-lighten-4: rgba(255, 255, 255, 0.3);
+  --border-radius-medium: 4px;
+  --border-radius-large: 8px;
+  --tab-size: 4;
+  --text-primary: white;
+}
+
+.darken-on-focus {
+  transition: filter 0.25s ease;
+}
+
+.darken-on-focus:focus-visible,
+.darken-on-focus:hover {
+  filter: brightness(80%);
+}
