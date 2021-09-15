@@ -1,8 +1,8 @@
 <template>
   <div>
     <Toolbar>
-      <Button @click="createNotebook">New</Button>
-      <Button @click="deleteAll">Delete all</Button>
+      <Button color="secondary" @click="createNotebook">New</Button>
+      <Button color="warn" @click="deleteAll">Delete all</Button>
     </Toolbar>
     <masonry-wall
       v-slot="{ item }"

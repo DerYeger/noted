@@ -2,6 +2,7 @@
   <button
     :style="{ background: colorVar }"
     class="darken-on-focus"
+    :class="{ small }"
     @click="$emit('click')"
   >
     <slot />
@@ -15,7 +16,11 @@ export default defineComponent({
   props: {
     color: {
       type: String,
-      default: 'secondary',
+      default: 'lighten-3',
+    },
+    small: {
+      type: Boolean,
+      default: false,
     },
   },
   computed: {
@@ -33,5 +38,11 @@ button {
   color: var(--text-primary);
   cursor: pointer;
   padding: 0.5em 1em;
+}
+
+button.small,
+.card__actions button,
+.toolbar button {
+  font-size: 0.8rem;
 }
 </style>
