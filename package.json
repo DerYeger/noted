@@ -13,7 +13,7 @@
     "lint": "yarn lint:js && yarn lint:style",
     "test": "jest",
     "pretty": "prettier --write \"./**/*.{js,json,html,scss,ts,vue,yml}\"",
-    "ci": "yarn pretty && yarn lint && yarn test && yarn build"
+    "ci": "yarn pretty && yarn lint && yarn test && yarn generate"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
