@@ -29,7 +29,7 @@ export default defineComponent({
   },
   methods: {
     createNotebook() {
-      this.$store.dispatch('createNotebook', { name: uuid(), content: '' })
+      this.$store.dispatch('createNotebook', 'New Notebook')
     },
     deleteAll() {
       this.$store.dispatch('notebooks/reset')
