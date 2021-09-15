@@ -114,15 +114,5 @@ export default {
     hostname: app.host,
     i18n: true,
     trailingSlash: true,
-    routes: async () => {
-      const { $content } = require('@nuxt/content')
-      const files = await $content({ deep: true }).only(['path']).fetch()
-
-      return files.flatMap((file) =>
-        file.path === '/de/home' || file.path === '/en/home'
-          ? []
-          : [file.path.replace('/en/', ''), file.path.replace('/en/', '/de/')]
-      )
-    },
   },
 }
