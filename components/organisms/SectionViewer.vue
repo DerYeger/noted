@@ -1,9 +1,9 @@
 <template>
   <splitpanes class="splitpanes">
-    <pane class="pane" :min-size="20">
+    <pane class="pane" :min-size="0">
       <Editor v-model="content" />
     </pane>
-    <pane class="pane" :min-size="20">
+    <pane class="pane" :min-size="0">
       <RenderView :input="content" />
     </pane>
   </splitpanes>

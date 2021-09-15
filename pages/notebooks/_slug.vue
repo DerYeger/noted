@@ -1,24 +1,22 @@
 <template>
-  <div class="h-100 d-flex flex-column">
-    <Toolbar>
-      <NuxtLink to="/">
-        <Button>Close</Button>
-      </NuxtLink>
-      <Button @click="download">Export</Button>
-    </Toolbar>
-    <Tabs class="section-tabs" @add="createNewSection">
-      <client-only>
-        <Tab
-          v-for="section of sections"
-          :id="section.id"
-          :key="section.id"
-          :title="section.name"
-        >
-          <SectionViewer :id="section.id" />
-        </Tab>
-      </client-only>
-    </Tabs>
-  </div>
+  <ClientOnly>
+    <div class="h-100 d-flex flex-column">
+      <Toolbar>
+        <NuxtLink to="/">
+          <Button>Close</Button>
+        </NuxtLink>
+        <Button @click="download">Export</Button>
+      </Toolbar>
+      <TabNavigation
+        v-model="tab"
+        :tabs="tabs"
+        class="section-tabs"
+        @add="createNewSection"
+        @menu="onMenu"
+      />
+      <SectionViewer v-if="currentSection" :id="currentSection.id" />
+    </div>
+  </ClientOnly>
 </template>
 
 <script lang="ts">
@@ -26,8 +24,14 @@ import { defineComponent } from '@nuxtjs/composition-api'
 import { Notebook } from '~/model/notebooks'
 import { Section } from '~/model/section'
 import { uuid } from '~/model/entity'
+import { Tab } from '~/model/tab'
 
 export default defineComponent({
+  data() {
+    return {
+      tab: '',
+    }
+  },
   computed: {
     notebookId(): string {
       return this.$route.params.slug
@@ -38,6 +42,20 @@ export default defineComponent({
     sections(): Section[] {
       return this.$store.getters['sections/byNotebookId'](this.notebookId)
     },
+    tabs(): Tab[] {
+      return this.sections.map((section) => ({
+        id: section.id,
+        title: section.name,
+      }))
+    },
+    currentSection(): Section | undefined {
+      return this.$store.getters['sections/byId'](this.tab)
+    },
+  },
+  mounted() {
+    if (this.sections.length > 0) {
+      this.tab = this.sections[0].id
+    }
   },
   methods: {
     createNewSection() {
@@ -48,6 +66,9 @@ export default defineComponent({
         notebookId: this.notebookId,
       }
       this.$store.commit('sections/add', section)
+    },
+    onMenu(id: string) {
+      this.$store.commit('sections/remove', id)
     },
     download() {
       // TODO download as zip

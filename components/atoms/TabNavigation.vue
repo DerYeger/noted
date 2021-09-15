@@ -1,12 +1,13 @@
 <template>
-  <div class="tabs">
-    <ul class="tabs__header">
+  <nav>
+    <ul>
       <li
-        v-for="(tab, index) in tabs"
+        v-for="tab in tabs"
         :key="tab.id"
-        :class="{ selected: index === selectedIndex }"
+        :class="{ selected: tab.id === value }"
         class="darken-on-focus"
-        @click="selectTab(index)"
+        @click="$emit('input', tab.id)"
+        @contextmenu.prevent="$emit('menu', tab.id)"
       >
         <span>{{ tab.title }}</span>
       </li>
@@ -14,60 +15,42 @@
         <span>+</span>
       </li>
     </ul>
-    <slot></slot>
-  </div>
+  </nav>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent, PropType } from '@nuxtjs/composition-api'
+import { Tab } from '~/model/tab'
+
+export default defineComponent({
   props: {
-    mode: {
+    tabs: {
+      type: Array as PropType<Tab[]>,
+      required: true,
+    },
+    value: {
       type: String,
-      default: 'light',
+      required: true,
     },
   },
-  data() {
-    return {
-      selectedIndex: 0,
-      tabs: [],
-    }
-  },
-  created() {
-    this.tabs = this.$children
-  },
-  mounted() {
-    this.selectTab(0)
-  },
-  methods: {
-    selectTab(i) {
-      const oldTab = this.tabs[this.selectedIndex]
-      if (oldTab !== undefined) {
-        oldTab.isActive = false
-      }
-      this.selectedIndex = i
-      const newTab = this.tabs[this.selectedIndex]
-      if (newTab !== undefined) {
-        newTab.isActive = true
-      }
-    },
-  },
-}
+})
 </script>
 
 <style scoped>
-.tabs {
+nav {
   display: flex;
   flex-direction: column;
 }
 
-.tabs__header {
+ul {
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
-  margin: 0;
+  margin: 0 0 1rem -1rem;
   min-height: 4.125rem;
   padding: 1rem;
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-x: overlay;
 }
 
 li {

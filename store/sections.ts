@@ -32,8 +32,8 @@ export const mutations = {
   add(state: SectionState, section: Section) {
     Vue.set(state, section.id, section)
   },
-  remove(state: SectionState, section: Section) {
-    Vue.delete(state, section.id)
+  remove(state: SectionState, id: string) {
+    Vue.delete(state, id)
   },
   removeAll(state: SectionState) {
     Object.values(state).forEach((section) => Vue.delete(state, section.id))

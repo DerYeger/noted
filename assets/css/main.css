@@ -18,6 +18,7 @@ body,
 
 .splitpanes__splitter {
   background: var(--color-lighten-2);
+  border-radius: var(--border-radius-large) 0 0 0;
   cursor: col-resize;
   position: relative;
   touch-action: none;
