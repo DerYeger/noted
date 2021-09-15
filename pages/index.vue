@@ -19,7 +19,6 @@
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
 import { Notebook } from '~/model/notebooks'
-import { uuid } from '~/model/entity'
 
 export default defineComponent({
   computed: {
