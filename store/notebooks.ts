@@ -28,8 +28,8 @@ export const mutations = {
   add(state: NotebookState, notebook: Notebook) {
     Vue.set(state, notebook.id, notebook)
   },
-  remove(state: NotebookState, notebook: Notebook) {
-    Vue.delete(state, notebook.id)
+  remove(state: NotebookState, id: string) {
+    Vue.delete(state, id)
   },
   removeAll(state: NotebookState) {
     Object.values(state).forEach((notebook) => Vue.delete(state, notebook.id))

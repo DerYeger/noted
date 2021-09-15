@@ -11,7 +11,7 @@
       :padding="16"
       class="pa-4"
     >
-      <NotebookCard :notebook="item" />
+      <NotebookCard :notebook="item" @delete="deleteNotebook" />
     </masonry-wall>
   </div>
 </template>
@@ -29,6 +29,9 @@ export default defineComponent({
   methods: {
     createNotebook() {
       this.$store.dispatch('createNotebook', 'New Notebook')
+    },
+    deleteNotebook(id: string) {
+      this.$store.commit('notebooks/remove', id)
     },
     deleteAll() {
       this.$store.dispatch('notebooks/reset')
