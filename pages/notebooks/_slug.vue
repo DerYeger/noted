@@ -10,7 +10,6 @@
       <TabNavigation
         v-model="tab"
         :tabs="tabs"
-        class="section-tabs"
         @add="createNewSection"
         @menu="onMenu"
       />
@@ -84,10 +83,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.section-tabs {
-  flex-grow: 1;
-  min-height: 0;
-}
-</style>
