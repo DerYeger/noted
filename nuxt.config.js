@@ -19,6 +19,7 @@ export default {
     { src: '~/plugins/marked' },
     { src: '~/plugins/masonryWall' },
     { src: '~/plugins/persistedState.client' },
+    { src: '~/plugins/pwaUpdate.client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
