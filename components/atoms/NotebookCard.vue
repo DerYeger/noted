@@ -1,10 +1,13 @@
 <template>
-  <div>
-    <p>{{ notebook.name }}</p>
-    <NuxtLink :to="`/notebooks/${notebook.id}`">
-      <Button color="primary">Open</Button>
-    </NuxtLink>
-  </div>
+  <Card>
+    <CardTitle>{{ notebook.name }}</CardTitle>
+    <CardActions>
+      <Button color="warn" @click="$emit('delete', notebook.id)">Delete</Button>
+      <NuxtLink :to="`/notebooks/${notebook.id}`">
+        <Button color="secondary">Open</Button>
+      </NuxtLink>
+    </CardActions>
+  </Card>
 </template>
 
 <script lang="ts">
@@ -20,12 +23,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-div {
-  color: var(--text-primary);
-  background: var(--color-secondary);
-  border-radius: var(--border-radius-medium);
-  padding: 0.5rem;
-}
-</style>
