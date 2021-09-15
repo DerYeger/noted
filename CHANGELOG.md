@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/DerYeger/noted/compare/v1.0.0...v1.0.1) (2021-09-15)
+
+
+### Bug Fixes
+
+* **layout:** prevent shrinking of tabs ([83aa1d1](https://github.com/DerYeger/noted/commit/83aa1d128fb7c06b4a71534f6612438a6604ac76))
+
 # 1.0.0 (2021-09-15)
 
 
