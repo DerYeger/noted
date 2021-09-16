@@ -25,7 +25,6 @@ export default defineComponent({
 <style>
 .render-view {
   background: var(--color-lighten-1);
-  color: var(--text-primary);
   padding: 1rem;
   height: 100%;
 }

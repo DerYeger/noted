@@ -11,6 +11,9 @@
   --color-warn: rgb(191, 63, 63);
   --border-radius-medium: 4px;
   --border-radius-large: 8px;
+  --fs-large: 1.25rem;
+  --fs-medium: 1rem;
+  --fs-small: 0.8rem;
   --tab-size: 4;
   --text-primary: white;
 }
