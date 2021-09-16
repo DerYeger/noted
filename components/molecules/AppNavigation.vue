@@ -35,7 +35,7 @@ export default defineComponent({
 .app__navigation li {
   display: inline-block;
   list-style: none;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .app__navigation a {
