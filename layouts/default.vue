@@ -1,7 +1,7 @@
 <template>
   <AppWrapper>
     <AppHeader :class="{ 'glass-mobile': sidebarOpen }">
-      <HamburgerButton v-model="sidebarOpen" style="margin-right: 1rem" />
+      <HamburgerButton v-model="sidebarOpen" style="margin: 0 1rem 0 0.5rem" />
     </AppHeader>
     <div class="app__content">
       <AppSidebar v-model="sidebarOpen" />
