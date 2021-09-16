@@ -2,9 +2,13 @@
   <Card>
     <CardTitle>{{ notebook.name }}</CardTitle>
     <CardActions>
-      <Button color="warn" @click="$emit('delete', notebook.id)">Delete</Button>
+      <Button color="warn" @click="$emit('delete', notebook.id)">
+        {{ $t('actions.delete') }}
+      </Button>
       <NuxtLink :to="`/notebooks/${notebook.id}`">
-        <Button color="secondary">Open</Button>
+        <Button color="secondary">
+          {{ $t('actions.open') }}
+        </Button>
       </NuxtLink>
     </CardActions>
   </Card>
