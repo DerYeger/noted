@@ -1,6 +1,6 @@
 <template>
   <button
-    class="hamburger"
+    class="hamburger unselectable"
     :class="{ hamburger__active: value }"
     @click="$emit('input', !value)"
   >
