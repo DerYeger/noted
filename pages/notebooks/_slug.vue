@@ -33,7 +33,6 @@ export default defineComponent({
       const message = i18n.t('error.notebooks.not-found', [
         params.slug,
       ]) as string
-      console.table(message);
       throw new Error(message)
     }
     return true
