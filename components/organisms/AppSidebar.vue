@@ -36,6 +36,7 @@ export default defineComponent({
     background: var(--color-darken-2);
     inset: 0;
     position: absolute;
+    z-index: 42;
   }
 
   .app__sidebar:not(.open) {
