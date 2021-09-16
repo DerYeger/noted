@@ -1,9 +1,9 @@
-@import "normalize.css";
-@import "prism-themes/darcula.css";
-@import "theme.css";
-@import "scrollbar.css";
-@import "typography.css";
-@import "utils.css";
+@import "./normalize.css";
+@import "./prism-themes/darcula.css";
+@import "./theme.css";
+@import "./scrollbar.css";
+@import "./typography.css";
+@import "./utils.css";
 
 html,
 body,
