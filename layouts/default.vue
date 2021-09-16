@@ -1,9 +1,8 @@
 <template>
   <AppWrapper>
-    <AppHeader
-      :class="{ 'glass-mobile': sidebarOpen }"
-      @sidebar-button-click="sidebarOpen = !sidebarOpen"
-    />
+    <AppHeader :class="{ 'glass-mobile': sidebarOpen }">
+      <HamburgerButton v-model="sidebarOpen" style="margin-right: 1rem" />
+    </AppHeader>
     <div class="app__content">
       <AppSidebar v-model="sidebarOpen" />
       <main :class="{ 'glass-mobile': sidebarOpen }">
