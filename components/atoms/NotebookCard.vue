@@ -5,7 +5,7 @@
       <Button color="warn" @click="$emit('delete', notebook.id)">
         {{ $t('actions.delete') }}
       </Button>
-      <NuxtLink :to="`/notebooks/${notebook.id}`">
+      <NuxtLink :to="localePath(getNotebookPath(notebook))">
         <Button color="secondary">
           {{ $t('actions.open') }}
         </Button>
@@ -17,6 +17,7 @@
 <script lang="ts">
 import { defineComponent, PropType } from '@nuxtjs/composition-api'
 import { Notebook } from '~/model/notebooks'
+import { getNotebookPath } from '~/model/routes'
 
 export default defineComponent({
   props: {
@@ -24,6 +25,9 @@ export default defineComponent({
       type: Object as PropType<Notebook>,
       required: true,
     },
+  },
+  methods: {
+    getNotebookPath,
   },
 })
 </script>
