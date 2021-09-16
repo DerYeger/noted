@@ -3,7 +3,7 @@
     ref="textarea"
     class="editor"
     :value="value"
-    placeholder="Start typing..."
+    :placeholder="$t('editor.placeholder')"
     wrap="off"
     @input.prevent="$emit('input', $event.target.value)"
   />

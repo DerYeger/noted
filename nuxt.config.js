@@ -79,11 +79,6 @@ export default {
         name: 'English',
         iso: 'en-US',
       },
-      {
-        code: 'de',
-        name: 'Deutsch',
-        iso: 'de-DE',
-      },
     ],
     vueI18n: i18n,
   },
