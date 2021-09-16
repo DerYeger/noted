@@ -1,5 +1,5 @@
 <template>
-  <p class="card__title">
+  <p class="card__title unselectable">
     <slot />
   </p>
 </template>

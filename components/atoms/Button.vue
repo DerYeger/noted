@@ -1,7 +1,7 @@
 <template>
   <button
     :style="{ background: colorVar }"
-    class="darken-on-focus"
+    class="darken-on-focus unselectable"
     :class="{ small }"
     @click="$emit('click')"
   >

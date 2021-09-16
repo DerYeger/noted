@@ -2,7 +2,9 @@
   <nav class="app__navigation">
     <ul>
       <li v-for="route in routes" :key="route.path">
-        <NuxtLink :to="route.path">{{ $t(route.title) }}</NuxtLink>
+        <NuxtLink :to="route.path" class="unselectable">
+          {{ $t(route.title) }}
+        </NuxtLink>
       </li>
     </ul>
   </nav>
