@@ -43,6 +43,6 @@ button {
 button.small,
 .card__actions button,
 .toolbar button {
-  font-size: 0.8rem;
+  font-size: var(--fs-small);
 }
 </style>

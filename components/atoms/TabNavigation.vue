@@ -54,10 +54,9 @@ ul {
 }
 
 li {
-  color: var(--text-primary);
-  cursor: pointer;
   background: var(--color-lighten-2);
   border-radius: var(--border-radius-medium);
+  cursor: pointer;
   display: flex;
   justify-content: center;
   min-width: 6rem;

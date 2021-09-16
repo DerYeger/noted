@@ -6,7 +6,7 @@
 
 <style>
 .card__title {
-  font-size: 1.25rem;
-  padding: 0.25rem;
+  font-size: var(--fs-large);
+  padding: 0.25em;
 }
 </style>

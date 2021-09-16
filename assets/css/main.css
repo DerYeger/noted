@@ -12,6 +12,16 @@ body,
   height: 100%;
 }
 
+body {
+  background: conic-gradient(
+    from 3rad at 105% 50%,
+    var(--color-primary),
+    var(--color-secondary-darken)
+  );
+  color: var(--text-primary);
+  height: 100%;
+}
+
 *:not(:is(pre *, code *)) {
   font-family: 'Roboto', sans-serif;
 }
