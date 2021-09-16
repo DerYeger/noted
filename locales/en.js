@@ -6,6 +6,9 @@ export default {
   app: {
     title: 'Noted',
   },
+  editor: {
+    placeholder: 'Start typing...',
+  },
   routes: {
     notebooks: 'Notebooks',
     settings: 'Settings',
