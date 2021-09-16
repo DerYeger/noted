@@ -22,7 +22,7 @@ export default defineComponent({
 .app__sidebar {
   background: var(--color-darken-1);
   height: 100%;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .close-button {
