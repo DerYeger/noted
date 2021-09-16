@@ -4,7 +4,9 @@
     <h1 v-else>
       {{ error.message }}
     </h1>
-    <NuxtLink :to="localePath(homeRoute.path)">{{ $t(homeRoute.title) }}</NuxtLink>
+    <NuxtLink :to="localePath(homeRoute.path)">
+      {{ $t(homeRoute.title) }}
+    </NuxtLink>
   </div>
 </template>
 

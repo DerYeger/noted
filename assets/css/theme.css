@@ -1,6 +1,9 @@
 :root {
   --anim-medium: 0.25s;
   --anim-short: 0.1s;
+  --border-radius-medium: 4px;
+  --border-radius-large: 8px;
+  --border-radius-xl: 16px;
   --color-primary: #462A39;
   --color-secondary: #637949;
   --color-secondary-darken: #39462A;
@@ -11,8 +14,6 @@
   --color-lighten-3: rgba(255, 255, 255, 0.2);
   --color-lighten-4: rgba(255, 255, 255, 0.3);
   --color-warn: rgb(191, 63, 63);
-  --border-radius-medium: 4px;
-  --border-radius-large: 8px;
   --fs-large: 1.25rem;
   --fs-medium: 1rem;
   --fs-small: 0.8rem;

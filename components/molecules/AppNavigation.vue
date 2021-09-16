@@ -28,7 +28,7 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem 1rem 0;
   height: 100%;
 }
 
@@ -39,7 +39,16 @@ export default defineComponent({
 }
 
 .app__navigation a {
+  background: var(--color-lighten-2);
+  border-bottom-right-radius: var(--border-radius-xl);
+  border-top-right-radius: var(--border-radius-xl);
   color: var(--text-primary);
   display: block;
+  padding: 0.75em 2em 0.75em 1em;
+  text-decoration: none;
+}
+
+.app__navigation a.nuxt-link-exact-active {
+  background: var(--color-lighten-4);
 }
 </style>
