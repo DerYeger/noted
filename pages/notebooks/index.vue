@@ -4,15 +4,7 @@
       <Button color="secondary" @click="createNotebook">New</Button>
       <Button color="warn" @click="deleteAll">Delete all</Button>
     </Toolbar>
-    <masonry-wall
-      v-slot="{ item }"
-      :items="notebooks"
-      :column-width="300"
-      :padding="16"
-      class="pa-4"
-    >
-      <NotebookCard :notebook="item" @delete="deleteNotebook" />
-    </masonry-wall>
+    <NotebookWall :notebooks="notebooks" @delete="deleteNotebook" />
   </div>
 </template>
 

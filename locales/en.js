@@ -15,6 +15,7 @@ export default {
     },
   },
   routes: {
+    home: 'Home',
     notebooks: 'Notebooks',
     settings: 'Settings',
   },

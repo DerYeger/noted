@@ -4,13 +4,14 @@
     <h1 v-else>
       {{ error.message }}
     </h1>
-    <NuxtLink :to="localePath('/')">{{ $t('routes.home') }}</NuxtLink>
+    <NuxtLink :to="localePath(homeRoute.path)">{{ $t(homeRoute.title) }}</NuxtLink>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, PropType } from '@nuxtjs/composition-api'
 import { NuxtError } from '@nuxt/types'
+import { routes } from '~/model/routes'
 
 export default defineComponent({
   props: {
@@ -18,6 +19,11 @@ export default defineComponent({
       type: Object as PropType<NuxtError>,
       required: true,
     },
+  },
+  data() {
+    return {
+      homeRoute: routes.home,
+    }
   },
   head() {
     const error = this.error as NuxtError
