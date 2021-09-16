@@ -9,6 +9,11 @@ export default {
   editor: {
     placeholder: 'Start typing...',
   },
+  error: {
+    notebooks: {
+      'not-found': 'Notebook {0} does not exist',
+    },
+  },
   routes: {
     notebooks: 'Notebooks',
     settings: 'Settings',

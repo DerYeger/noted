@@ -26,6 +26,18 @@ import { uuid } from '~/model/entity'
 import { Tab } from '~/model/tab'
 
 export default defineComponent({
+  validate({ i18n, params, store }): boolean {
+    const notebookExists =
+      store.getters['notebooks/byId'](params.slug) !== undefined
+    if (!notebookExists) {
+      const message = i18n.t('error.notebooks.not-found', [
+        params.slug,
+      ]) as string
+      console.table(message);
+      throw new Error(message)
+    }
+    return true
+  },
   data() {
     return {
       tab: '',
