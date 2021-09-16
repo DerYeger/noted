@@ -27,9 +27,11 @@ export default defineComponent({
 <style scoped>
 .app__content {
   display: flex;
-  height: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
   width: 100%;
 }
+
 main {
   height: 100%;
   flex-grow: 1;
