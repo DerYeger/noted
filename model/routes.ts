@@ -1,4 +1,4 @@
-import { Notebook } from "~/model/notebooks";
+import { Notebook } from '~/model/notebooks'
 
 export interface Route {
   title: string

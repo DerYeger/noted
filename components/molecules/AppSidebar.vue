@@ -22,7 +22,6 @@ export default defineComponent({
 .app__sidebar {
   background: var(--color-darken-1);
   height: 100%;
-  padding: 1rem 2rem 1rem 2rem;
 }
 
 .close-button {
@@ -37,6 +36,13 @@ export default defineComponent({
     inset: 0;
     position: absolute;
     z-index: 42;
+  }
+
+  .app__sidebar nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .app__sidebar:not(.open) {
