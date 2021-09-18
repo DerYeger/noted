@@ -36,7 +36,7 @@
     "vuex-persistedstate": "4.0.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.14.7",
+    "@babel/eslint-parser": "7.15.7",
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "@nuxt/types": "2.15.8",
