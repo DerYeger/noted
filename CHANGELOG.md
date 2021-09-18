@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/DerYeger/noted/compare/v1.1.0...v1.1.1) (2021-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency marked to v3.0.4 ([41db7bb](https://github.com/DerYeger/noted/commit/41db7bbf4816378a7f4d52f23c6e1bb8f9b9c9c1))
+
 # [1.1.0](https://github.com/DerYeger/noted/compare/v1.0.1...v1.1.0) (2021-09-16)
 
 
