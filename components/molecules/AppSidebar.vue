@@ -24,7 +24,6 @@ export default defineComponent({
 
 <style scoped>
 .app__sidebar {
-  background: var(--color-darken-1);
   height: 100%;
 }
 

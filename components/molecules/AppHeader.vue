@@ -8,7 +8,6 @@
 <style scoped>
 .app__header {
   align-items: center;
-  background: var(--color-darken-1);
   display: flex;
   padding: 0.75em;
 }

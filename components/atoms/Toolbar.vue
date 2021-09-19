@@ -6,7 +6,6 @@
 
 <style scoped>
 .toolbar {
-  background: var(--color-darken-2);
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 1rem;
