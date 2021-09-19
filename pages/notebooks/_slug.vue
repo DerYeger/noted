@@ -2,10 +2,14 @@
   <ClientOnly>
     <div class="h-100 d-flex flex-column">
       <Toolbar class="ma-4">
-        <NuxtLink to="/">
-          <Button>Close</Button>
+        <NuxtLink :to="localePath(notebooksRoute.path)">
+          <Button color="warn">
+            {{ $t('actions.close') }}
+          </Button>
         </NuxtLink>
-        <Button @click="download">Export</Button>
+        <Button color="secondary" @click="download">
+          {{ $t('actions.download') }}
+        </Button>
       </Toolbar>
       <TabNavigation
         v-model="tab"
@@ -24,6 +28,7 @@ import { defineComponent } from '@nuxtjs/composition-api'
 import { Notebook } from '~/model/notebooks'
 import { Section } from '~/model/section'
 import { uuid } from '~/model/entity'
+import { routes } from '~/model/routes'
 import { Tab } from '~/model/tab'
 
 export default defineComponent({
@@ -40,6 +45,7 @@ export default defineComponent({
   },
   data() {
     return {
+      notebooksRoute: routes.notebooks,
       tab: '',
     }
   },
