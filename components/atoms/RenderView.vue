@@ -28,4 +28,8 @@ export default defineComponent({
   padding: 1rem;
   min-height: 100%;
 }
+
+.render-view > *:first-child {
+  margin-top: 0;
+}
 </style>
