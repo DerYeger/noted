@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/DerYeger/noted/compare/v1.9.0...v1.10.0) (2021-09-19)
+
+
+### Features
+
+* **design:** update sidebar and navigation ([c98daa9](https://github.com/DerYeger/noted/commit/c98daa98d8c6870ab2d0e0d4856c42ab1707511d))
+
 # [1.9.0](https://github.com/DerYeger/noted/compare/v1.8.0...v1.9.0) (2021-09-19)
 
 
