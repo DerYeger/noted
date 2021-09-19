@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/DerYeger/noted/compare/v1.4.0...v1.4.1) (2021-09-19)
+
+
+### Bug Fixes
+
+* **design:** update elevated `box-shadow` ([9115f48](https://github.com/DerYeger/noted/commit/9115f485df8cebcef49086c5c9b83a338005fd52))
+
 # [1.4.0](https://github.com/DerYeger/noted/compare/v1.3.0...v1.4.0) (2021-09-19)
 
 
