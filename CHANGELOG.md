@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/DerYeger/noted/compare/v1.1.1...v1.2.0) (2021-09-19)
+
+
+### Bug Fixes
+
+* **design:** update hamburger button ([2a4921c](https://github.com/DerYeger/noted/commit/2a4921cd46afd108de502a831c16bddfd60937ae))
+
+
+### Features
+
+* **design:** update typography ([bd4b520](https://github.com/DerYeger/noted/commit/bd4b5201c401538d4fe19c78573c2f5c32c9a4d6))
+* **design:** use hamburger button for closing sidebar on mobile ([18dd6e8](https://github.com/DerYeger/noted/commit/18dd6e81fe5dc220533c17060592a73c73d8c31f))
+
 ## [1.1.1](https://github.com/DerYeger/noted/compare/v1.1.0...v1.1.1) (2021-09-18)
 
 
