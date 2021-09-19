@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/DerYeger/noted/compare/v1.10.0...v1.10.1) (2021-09-19)
+
+
+### Bug Fixes
+
+* **i18n:** add missing translations ([6e472da](https://github.com/DerYeger/noted/commit/6e472dac76b0772a55d0029151dd0fe91e91f38f))
+
 # [1.10.0](https://github.com/DerYeger/noted/compare/v1.9.0...v1.10.0) (2021-09-19)
 
 
