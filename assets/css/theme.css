@@ -48,8 +48,8 @@
 
 .elevated {
   box-shadow:
-    0.5rem 0.5rem 0.75rem 0 var(--color-darken-3),
-    -0.125rem -0.125rem 0.4rem 0 var(--color-lighten-3);
+    0.5rem 0.5rem 0.75rem 0 var(--color-darken-2),
+    -0.125rem -0.125rem 1rem 0 var(--color-lighten-2);
 }
 
 .depressed {

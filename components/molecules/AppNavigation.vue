@@ -39,7 +39,6 @@ export default defineComponent({
 }
 
 .app__navigation a {
-  background: var(--color-lighten-2);
   border-bottom-right-radius: var(--border-radius-xl);
   border-top-right-radius: var(--border-radius-xl);
   color: var(--text-primary);
@@ -51,10 +50,10 @@ export default defineComponent({
 
 .app__navigation a:focus-visible,
 .app__navigation a:hover {
-  background: var(--color-lighten-3);
+  background: var(--color-lighten-2);
 }
 
 .app__navigation a.nuxt-link-exact-active {
-  background: var(--color-lighten-4);
+  background: var(--color-lighten-3);
 }
 </style>
