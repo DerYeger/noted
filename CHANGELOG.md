@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/DerYeger/noted/compare/v1.3.0...v1.4.0) (2021-09-19)
+
+
+### Bug Fixes
+
+* **layout:** use `gap` ([85dc3c6](https://github.com/DerYeger/noted/commit/85dc3c65339a233e4d81e098cf581db841ab9f22))
+
+
+### Features
+
+* **design:** use depressed `main` ([cc9c1de](https://github.com/DerYeger/noted/commit/cc9c1dee9e1c94ccc62e919cf1bd98e263b34bc9))
+* **design:** use rounded `main` ([8de70fd](https://github.com/DerYeger/noted/commit/8de70fdf0180623ae096e7dd835f0bc32416c122))
+
 # [1.3.0](https://github.com/DerYeger/noted/compare/v1.2.0...v1.3.0) (2021-09-19)
 
 
