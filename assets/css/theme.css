@@ -39,12 +39,6 @@
   backdrop-filter: blur(var(--glass-blur));
 }
 
-@media only screen and (max-width: 600px) {
-  .glass-mobile {
-    filter: blur(var(--glass-blur));
-  }
-}
-
 pre,
 .elevated {
   box-shadow:

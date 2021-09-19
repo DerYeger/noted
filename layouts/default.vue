@@ -1,17 +1,11 @@
 <template>
   <AppWrapper>
-    <AppHeader :class="{ 'glass-mobile': sidebarOpen }">
+    <AppHeader>
       <HamburgerButton v-model="sidebarOpen" style="margin: 0 1rem 0 0.5rem" />
     </AppHeader>
     <div class="app__content">
       <AppSidebar v-model="sidebarOpen" />
-      <main
-        class="depressed"
-        :class="{
-          'glass-mobile': sidebarOpen,
-          'rounded-top-left': sidebarOpen,
-        }"
-      >
+      <main class="depressed" :class="{ 'rounded-top-left': sidebarOpen }">
         <Nuxt />
       </main>
     </div>

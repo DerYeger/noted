@@ -14,6 +14,9 @@ export default {
       'not-found': 'Notebook {0} does not exist',
     },
   },
+  misc: {
+    'source-code': 'Source code',
+  },
   routes: {
     home: 'Home',
     notebooks: 'Notebooks',

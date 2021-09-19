@@ -35,10 +35,14 @@ export default defineComponent({
 
 @media only screen and (max-width: 600px) {
   .app__sidebar {
-    background: var(--color-darken-2);
+    background: var(--color-primary);
     inset: 0;
     position: absolute;
     z-index: 42;
+  }
+
+  .app__sidebar:not(.open) {
+    display: none;
   }
 
   .app__sidebar nav {
@@ -46,10 +50,6 @@ export default defineComponent({
     bottom: 0;
     left: 0;
     right: 0;
-  }
-
-  .app__sidebar:not(.open) {
-    display: none;
   }
 }
 

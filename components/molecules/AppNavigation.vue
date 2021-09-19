@@ -6,6 +6,16 @@
           {{ $t(route.title) }}
         </NuxtLink>
       </li>
+      <li>
+        <a
+          class="elevated source-link unselectable"
+          href="https://github.com/DerYeger/noted"
+          rel="noopener"
+          target="_blank"
+        >
+          {{ $t('misc.source-code') }}
+        </a>
+      </li>
     </ul>
   </nav>
 </template>
@@ -55,5 +65,10 @@ export default defineComponent({
 
 .app__navigation a.nuxt-link-exact-active {
   background: var(--color-lighten-3);
+}
+
+.source-link {
+  font-size: var(--fs-small);
+  margin-top: 2rem;
 }
 </style>
