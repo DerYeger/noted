@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/DerYeger/noted/compare/v1.7.0...v1.8.0) (2021-09-19)
+
+
+### Features
+
+* **editor:** update prism theme ([ae77d4f](https://github.com/DerYeger/noted/commit/ae77d4fe686c6860c333c972b3b9299c2e0b5f8b))
+
 # [1.7.0](https://github.com/DerYeger/noted/compare/v1.6.0...v1.7.0) (2021-09-19)
 
 
