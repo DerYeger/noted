@@ -46,6 +46,7 @@
   }
 }
 
+pre,
 .elevated {
   box-shadow:
     0.5rem 0.5rem 0.75rem 0 var(--color-darken-2),

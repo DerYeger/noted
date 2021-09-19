@@ -1,0 +1,28 @@
+:root {
+  --prism-green: #6a8759;
+  --prism-orange: #cc7832;
+  --prism-white: var(--text-primary);
+  --prism-yellow: #ffc66d;
+  --prism-foreground: var(--prism-white);
+  --prism-background: transparent;
+  --prism-comment: var(--color-lighten-4);
+  --prism-string: var(--prism-green);
+  --prism-literal: var(--prism-orange);
+  --prism-keyword: var(--prism-orange);
+  --prism-function: var(--prism-yellow);
+  --prism-deleted: #a14f55;
+  --prism-class: #2b91af;
+  --prism-builtin: #a52727;
+  --prism-property: var(--prism-yellow);
+  --prism-namespace: #c96880;
+  --prism-punctuation: var(--prism-white);
+  --prism-decorator: #bd8f8f;
+  --prism-json-property: #698c96;
+  --prism-tab-size: var(--tab-size);
+}
+
+pre {
+  border-radius: var(--border-radius-medium);
+  padding: 1em;
+  overflow-x: auto;
+}

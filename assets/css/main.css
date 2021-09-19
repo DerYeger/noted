@@ -1,5 +1,5 @@
 @import "./normalize.css";
-@import "./prism-themes/darcula.css";
+@import "./prism-theme.css";
 @import "./theme.css";
 @import "./scrollbar.css";
 @import "./typography.css";

@@ -30,6 +30,7 @@
     "jszip": "^3.7.1",
     "marked": "3.0.4",
     "nuxt": "2.15.8",
+    "prism-theme-vars": "0.2.2",
     "prismjs": "1.24.1",
     "splitpanes": "2.3.8",
     "uuid": "8.3.2",
