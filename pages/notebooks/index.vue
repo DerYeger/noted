@@ -2,7 +2,6 @@
   <div class="pa-4">
     <Toolbar class="mb-4">
       <Button color="secondary" @click="createNotebook">New</Button>
-      <Button color="warn" @click="deleteAll">Delete all</Button>
     </Toolbar>
     <NotebookWall :notebooks="notebooks" @delete="deleteNotebook" />
   </div>
@@ -24,9 +23,6 @@ export default defineComponent({
     },
     deleteNotebook(id: string) {
       this.$store.commit('notebooks/remove', id)
-    },
-    deleteAll() {
-      this.$store.dispatch('notebooks/reset')
     },
   },
 })
