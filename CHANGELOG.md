@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/DerYeger/noted/compare/v1.5.0...v1.6.0) (2021-09-19)
+
+
+### Features
+
+* download sections as single zip ([1c4aa7c](https://github.com/DerYeger/noted/commit/1c4aa7ce0282fcd8ead651a481628943a43cf068))
+
 # [1.5.0](https://github.com/DerYeger/noted/compare/v1.4.1...v1.5.0) (2021-09-19)
 
 
