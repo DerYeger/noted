@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/DerYeger/noted/compare/v1.6.0...v1.7.0) (2021-09-19)
+
+
+### Bug Fixes
+
+* **tabs:** improve tab state colors ([fb162be](https://github.com/DerYeger/noted/commit/fb162bee0929bab3fd99c36dee548bfc56c8f00e))
+
+
+### Features
+
+* **editor:** support indentation ([99899f2](https://github.com/DerYeger/noted/commit/99899f208d4c7e8009ae919d994b7873eb57b4ba))
+
 # [1.6.0](https://github.com/DerYeger/noted/compare/v1.5.0...v1.6.0) (2021-09-19)
 
 
