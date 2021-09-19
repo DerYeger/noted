@@ -82,15 +82,7 @@ export default defineComponent({
       this.$store.commit('sections/remove', id)
     },
     download() {
-      // TODO download as zip
-      this.sections.forEach((section) => {
-        const blob = new Blob([section.content], { type: 'text/markdown' })
-        const link = document.createElement('a')
-        link.href = URL.createObjectURL(blob)
-        link.download = `${section.name}.md`
-        link.click()
-        URL.revokeObjectURL(link.href)
-      })
+      this.$store.dispatch('notebooks/download', this.notebookId)
     },
   },
 })
