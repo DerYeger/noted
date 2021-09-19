@@ -1,6 +1,10 @@
 <template>
   <aside class="app__sidebar" :class="{ open: value, closed: !value }">
-    <Button class="close-button" @click="$emit('input', false)"> X </Button>
+    <HamburgerButton
+      class="close-button"
+      :value="value"
+      @input="$emit('input', !value)"
+    />
     <AppNavigation />
   </aside>
 </template>
