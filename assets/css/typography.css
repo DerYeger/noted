@@ -11,6 +11,8 @@ a {
   color: var(--text-primary);
 }
 
+input::placeholder,
+textarea::placeholder,
 .text--secondary {
   color: var(--color-lighten-4);
   font-style: italic;
