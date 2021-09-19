@@ -8,7 +8,7 @@
         @click="$emit('input', tab.id)"
         @contextmenu.prevent="$emit('menu', tab.id)"
       >
-        <Button small color="lighten-2">{{ tab.title }}</Button>
+        <Button small>{{ tab.title }}</Button>
       </li>
       <li @click="$emit('add')">
         <Button small>+</Button>
@@ -58,6 +58,6 @@ li {
 }
 
 li.selected button {
-  background: var(--color-lighten-3);
+  background: var(--color-lighten-2);
 }
 </style>
