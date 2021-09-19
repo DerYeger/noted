@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/DerYeger/noted/compare/v1.4.1...v1.5.0) (2021-09-19)
+
+
+### Features
+
+* **design:** style placeholder text ([82043dc](https://github.com/DerYeger/noted/commit/82043dc9b08bc1092428af464d49c3b6e8c4da98))
+
 ## [1.4.1](https://github.com/DerYeger/noted/compare/v1.4.0...v1.4.1) (2021-09-19)
 
 
