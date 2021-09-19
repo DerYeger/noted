@@ -5,7 +5,13 @@
     </AppHeader>
     <div class="app__content">
       <AppSidebar v-model="sidebarOpen" />
-      <main :class="{ 'glass-mobile': sidebarOpen, 'rounded-top-left': sidebarOpen }">
+      <main
+        class="depressed"
+        :class="{
+          'glass-mobile': sidebarOpen,
+          'rounded-top-left': sidebarOpen,
+        }"
+      >
         <Nuxt />
       </main>
     </div>
@@ -34,9 +40,10 @@ export default defineComponent({
 
 main {
   background: var(--color-lighten-1);
+  flex-grow: 1;
   height: 100%;
   overflow-x: hidden;
-  flex-grow: 1;
+  transition: var(--anim-medium);
 }
 
 @media only screen and (min-width: 601px) {

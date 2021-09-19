@@ -1,7 +1,7 @@
 <template>
   <ClientOnly>
     <div class="h-100 d-flex flex-column">
-      <Toolbar>
+      <Toolbar class="ma-4">
         <NuxtLink to="/">
           <Button>Close</Button>
         </NuxtLink>
@@ -10,6 +10,7 @@
       <TabNavigation
         v-model="tab"
         :tabs="tabs"
+        class="mx-4 mb-4"
         @add="createNewSection"
         @menu="onMenu"
       />

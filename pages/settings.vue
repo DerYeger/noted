@@ -1,5 +1,5 @@
 <template>
-  <div class="text--secondary">TODO</div>
+  <div class="pa-4 text--secondary">TODO</div>
 </template>
 
 <style scoped>

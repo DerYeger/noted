@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Toolbar>
+  <div class="pa-4">
+    <Toolbar class="mb-4">
       <Button color="secondary" @click="createNotebook">New</Button>
       <Button color="warn" @click="deleteAll">Delete all</Button>
     </Toolbar>

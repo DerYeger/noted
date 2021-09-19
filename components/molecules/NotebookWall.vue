@@ -4,7 +4,6 @@
     :items="notebooks"
     :column-width="300"
     :padding="16"
-    class="ma-4"
   >
     <NotebookCard :notebook="item" @delete="$emit('delete', item.id)" />
   </MasonryWall>

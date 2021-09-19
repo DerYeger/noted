@@ -2,7 +2,7 @@
   <nav class="app__navigation">
     <ul>
       <li v-for="route in routes" :key="route.path">
-        <NuxtLink :to="localePath(route.path)" class="unselectable">
+        <NuxtLink :to="localePath(route.path)" class="elevated unselectable">
           {{ $t(route.title) }}
         </NuxtLink>
       </li>

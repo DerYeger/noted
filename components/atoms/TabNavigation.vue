@@ -37,9 +37,9 @@ export default defineComponent({
 
 <style scoped>
 nav {
-  margin: 1rem;
   overflow-x: auto;
-  padding-bottom: 0.5rem;
+  overflow-y: hidden;
+  padding-bottom: 0.75rem;
   width: 100%;
 }
 
