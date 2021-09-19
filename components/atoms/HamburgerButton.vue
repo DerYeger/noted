@@ -25,19 +25,20 @@ export default defineComponent({
 
 <style scoped>
 .hamburger {
+  --hamburger-height: 1.5rem;
+  --hamburger-part-height: calc(var(--hamburger-height) / 8);
+  --hamburger-part-margin: calc(
+    (var(--hamburger-height) - (3 * var(--hamburger-part-height))) / 5
+  );
+  --hamburger-width: 1.25rem;
+
   all: unset;
   cursor: pointer;
   display: inline-flex;
   flex-direction: column;
-  height: 24px;
+  height: var(--hamburger-height);
   justify-content: space-evenly;
-  width: 24px;
-
-  --hamburger-size: 24px;
-  --hamburger-part-height: calc(var(--hamburger-size) / 8);
-  --hamburger-part-margin: calc(
-    (var(--hamburger-size) - (3 * var(--hamburger-part-height))) / 5
-  );
+  width: var(--hamburger-width);
 }
 
 .hamburger__top,
@@ -45,24 +46,17 @@ export default defineComponent({
 .hamburger__bottom {
   background-color: var(--text-primary);
   border-radius: var(--border-radius-large);
+  filter: brightness(90%);
   height: var(--hamburger-part-height);
   margin-bottom: var(--hamburger-part-margin);
   margin-top: var(--hamburger-part-margin);
-  transition: var(--anim-medium);
-  width: 100%;
-}
-
-.hamburger__top,
-.hamburger__bottom {
   transform-origin: 50% 50%;
-}
-
-.hamburger__middle {
-  transform-origin: 0 0;
+  transition: var(--anim-medium);
+  width: var(--hamburger-width);
 }
 
 .hamburger__active .hamburger__top {
-  transform: translateY(calc(var(--hamburger-size) / 3)) rotate(45deg);
+  transform: translateY(calc(var(--hamburger-height) / 3)) rotate(45deg);
 }
 
 .hamburger__active .hamburger__middle {
@@ -71,6 +65,6 @@ export default defineComponent({
 }
 
 .hamburger__active .hamburger__bottom {
-  transform: translateY(calc(var(--hamburger-size) / -3)) rotate(-45deg);
+  transform: translateY(calc(var(--hamburger-height) / -3)) rotate(-45deg);
 }
 </style>
