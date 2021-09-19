@@ -1,6 +1,6 @@
 <template>
   <button
-    :style="{ background: colorVar }"
+    :style="{ '--button-color': colorVar }"
     class="darken-on-focus unselectable"
     :class="{ small }"
     @click="$emit('click')"
@@ -33,10 +33,12 @@ export default defineComponent({
 
 <style scoped>
 button {
+  background: var(--button-color);
   border: none;
   border-radius: var(--border-radius-medium);
   color: var(--text-primary);
   cursor: pointer;
+  min-width: 4em;
   padding: 0.5em 1em;
 }
 
