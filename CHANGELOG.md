@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/DerYeger/noted/compare/v1.10.1...v1.10.2) (2021-09-19)
+
+
+### Bug Fixes
+
+* **design:** improve navigation shadows ([66d4f11](https://github.com/DerYeger/noted/commit/66d4f1159a40cc208d5a88efaa92faf32a9f56e1))
+
 ## [1.10.1](https://github.com/DerYeger/noted/compare/v1.10.0...v1.10.1) (2021-09-19)
 
 
