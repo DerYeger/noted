@@ -10,3 +10,8 @@ p {
 a {
   color: var(--text-primary);
 }
+
+.text--secondary {
+  color: var(--color-lighten-4);
+  font-style: italic;
+}

@@ -1,9 +1,9 @@
 :root {
   --anim-medium: 0.25s;
   --anim-short: 0.1s;
-  --border-radius-medium: 4px;
-  --border-radius-large: 8px;
-  --border-radius-xl: 16px;
+  --border-radius-medium: 0.25rem;
+  --border-radius-large: 0.5rem;
+  --border-radius-xl: 1.5rem;
   --color-primary: #462A39;
   --color-secondary: #637949;
   --color-secondary-darken: #39462A;
@@ -17,7 +17,7 @@
   --fs-large: 1.25rem;
   --fs-medium: 1rem;
   --fs-small: 0.8rem;
-  --glass-blur: 4px;
+  --glass-blur: 0.25rem;
   --tab-size: 4;
   --text-primary: white;
 }

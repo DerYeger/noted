@@ -45,7 +45,13 @@ export default defineComponent({
   color: var(--text-primary);
   display: block;
   padding: 0.75em 2em 0.75em 1em;
+  transition: background var(--anim-medium) ease;
   text-decoration: none;
+}
+
+.app__navigation a:focus-visible,
+.app__navigation a:hover {
+  background: var(--color-lighten-3);
 }
 
 .app__navigation a.nuxt-link-exact-active {
