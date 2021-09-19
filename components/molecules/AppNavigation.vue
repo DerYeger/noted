@@ -2,13 +2,16 @@
   <nav class="app__navigation">
     <ul>
       <li v-for="route in routes" :key="route.path">
-        <NuxtLink :to="localePath(route.path)" class="elevated unselectable">
+        <NuxtLink
+          :to="localePath(route.path)"
+          class="elevated no-touch-callout unselectable"
+        >
           {{ $t(route.title) }}
         </NuxtLink>
       </li>
       <li>
         <a
-          class="elevated source-link unselectable"
+          class="elevated no-touch-callout source-link unselectable"
           href="https://github.com/DerYeger/noted"
           rel="noopener"
           target="_blank"
@@ -53,7 +56,8 @@ export default defineComponent({
   border-top-right-radius: var(--border-radius-xl);
   color: var(--text-primary);
   display: block;
-  padding: 0.75em 2em 0.75em 1em;
+  margin-left: -1rem;
+  padding: 0.75em 2rem 0.75em 2rem;
   transition: background var(--anim-medium) ease;
   text-decoration: none;
 }
