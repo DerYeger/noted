@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/DerYeger/noted/compare/v1.2.0...v1.3.0) (2021-09-19)
+
+
+### Bug Fixes
+
+* **design:** update error page typography ([b0a1c41](https://github.com/DerYeger/noted/commit/b0a1c41cbb200dff2c5b1e6877d4203a1b18c227))
+
+
+### Features
+
+* **design:** update card design ([76620b2](https://github.com/DerYeger/noted/commit/76620b267bf5bdddf8a2dadeb3db563d56b6285c))
+
 # [1.2.0](https://github.com/DerYeger/noted/compare/v1.1.1...v1.2.0) (2021-09-19)
 
 
