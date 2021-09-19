@@ -6406,6 +6406,13 @@ indent-string@^4.0.0:
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
+indent-textarea@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/indent-textarea/-/indent-textarea-2.1.0.tgz#e862d7b556484fc2b526f004e1ffffbdc063d8df"
+  integrity sha512-HVQi06Dbkyz1fdn7T8KIT49mXonDKak8GHxbBt98tgSehL4ypteoIBxAegRGoI34HNHNNr+downPhWyf53lTqw==
+  dependencies:
+    text-field-edit "^3.1.0"
+
 indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
@@ -11330,6 +11337,11 @@ text-extensions@^1.0.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/text-extensions/-/text-extensions-1.9.0.tgz#1853e45fee39c945ce6f6c36b2d659b5aabc2a26"
   integrity sha512-wiBrwC1EhBelW12Zy26JeOUkQ5mRu+5o8rpsJk5+2t+Y5vE7e842qtZDQ2g1NpX/29HdyFeJ4nSIhI47ENSxlQ==
+
+text-field-edit@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/text-field-edit/-/text-field-edit-3.1.1.tgz#a32b2ab8e75a30309e15a24d687043f6a692bf8a"
+  integrity sha512-Ho+H/NHZhW0qK/CXQknrMOhHcNS4Jzs1NjhkZNi+nYa1+MS66Yc04qJeooGkHUzWdQDtNES5IYKxIbYIqmylLw==
 
 text-table@^0.2.0:
   version "0.2.0"

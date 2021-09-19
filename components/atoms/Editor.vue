@@ -11,6 +11,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { eventHandler as indentationHandler } from 'indent-textarea'
 
 export default defineComponent({
   props: {
@@ -25,23 +26,10 @@ export default defineComponent({
     },
   },
   mounted() {
-    this.textArea.addEventListener('keydown', this.handleTabInput)
+    this.textArea.addEventListener('keydown', indentationHandler)
   },
   beforeDestroy() {
-    this.textArea.removeEventListener('keydown', this.handleTabInput)
-  },
-  methods: {
-    handleTabInput(event: KeyboardEvent) {
-      if (event.key === 'Tab') {
-        event.preventDefault()
-        const target = event.target as HTMLTextAreaElement
-        const start = target.selectionStart
-        const end = target.selectionEnd
-        const value = target.value
-        target.value = value.substring(0, start) + '\t' + value.substring(end)
-        target.selectionStart = target.selectionEnd = start + 1
-      }
-    },
+    this.textArea.removeEventListener('keydown', indentationHandler)
   },
 })
 </script>
