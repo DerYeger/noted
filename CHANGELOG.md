@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/DerYeger/noted/compare/v1.8.0...v1.9.0) (2021-09-19)
+
+
+### Features
+
+* **layout:** remove top margin of first element in render view ([46b7c54](https://github.com/DerYeger/noted/commit/46b7c54edf49c26724297b45fe500fabb54a6361))
+* **settings:** add `tabSize` setting ([2b8b4a1](https://github.com/DerYeger/noted/commit/2b8b4a1abcfa875a438a80842c4274327ea3e913))
+
 # [1.8.0](https://github.com/DerYeger/noted/compare/v1.7.0...v1.8.0) (2021-09-19)
 
 
