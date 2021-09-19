@@ -19,7 +19,6 @@ body {
     var(--color-secondary-darken)
   );
   color: var(--text-primary);
-  height: 100%;
 }
 
 *:not(:is(pre *, code *)) {

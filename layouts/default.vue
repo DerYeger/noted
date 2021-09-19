@@ -35,6 +35,7 @@ export default defineComponent({
 main {
   background: var(--color-lighten-1);
   height: 100%;
+  overflow-x: hidden;
   flex-grow: 1;
 }
 

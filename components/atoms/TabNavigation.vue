@@ -5,14 +5,13 @@
         v-for="tab in tabs"
         :key="tab.id"
         :class="{ selected: tab.id === value }"
-        class="darken-on-focus"
         @click="$emit('input', tab.id)"
         @contextmenu.prevent="$emit('menu', tab.id)"
       >
-        <span>{{ tab.title }}</span>
+        <Button small color="lighten-2">{{ tab.title }}</Button>
       </li>
-      <li class="darken-on-focus add" @click="$emit('add')">
-        <span>+</span>
+      <li @click="$emit('add')">
+        <Button small>+</Button>
       </li>
     </ul>
   </nav>
@@ -38,42 +37,27 @@ export default defineComponent({
 
 <style scoped>
 nav {
-  display: flex;
-  flex-direction: column;
+  margin: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  width: 100%;
 }
 
 ul {
   display: flex;
   flex-wrap: nowrap;
+  gap: 0.5rem;
   list-style: none;
-  margin: 0 0 1rem -1rem;
-  min-height: 4.125rem;
-  padding: 1rem;
-  overflow-x: scroll;
-  overflow-x: overlay;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  background: var(--color-lighten-2);
-  border-radius: var(--border-radius-medium);
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  min-width: 6rem;
   text-align: center;
   white-space: nowrap;
-  margin-left: 1rem;
 }
 
-li > span {
-  margin: 0.5rem 1rem 0.5rem 1rem;
-}
-
-li.selected {
+li.selected button {
   background: var(--color-lighten-3);
-}
-
-li.add {
-  min-width: unset;
 }
 </style>

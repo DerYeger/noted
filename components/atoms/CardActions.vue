@@ -8,9 +8,6 @@
 .card__actions {
   display: flex;
   justify-content: flex-end;
-}
-
-.card__actions > *:not(:first-child) {
-  margin-left: 0.5rem;
+  gap: 0.5rem;
 }
 </style>
