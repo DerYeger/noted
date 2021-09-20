@@ -1,69 +1,72 @@
-# noted
+<p align="center">
+  <img src="static/icon.png" alt="Logo" width="48px" height="48px">
+</p>
 
-## Build Setup
+<h1 align="center">Noted</h1>
+
+<p align="center">
+  <a href="https://noted.yeger.eu/">noted.yeger.eu</a>
+</p>
+
+<p align="center">
+  Real-time note-taking with syntax highlighting.
+</p>
+
+<p align="center">
+  <a href="https://github.com/DerYeger/noted/actions/workflows/ci.yml">
+    <img alt="CI" src="https://img.shields.io/github/workflow/status/DerYeger/noted/CI?label=ci&logo=github&color=#4DC71F">
+  </a>
+  <a href="https://github.com/DerYeger/noted/actions/workflows/cd.yml">
+    <img alt="CD" src="https://img.shields.io/github/workflow/status/DerYeger/noted/CD?label=cd&logo=github&color=#4DC71F">
+  </a>
+  <a href="https://github.com/DerYeger/noted/actions/workflows/maintenance.yml">
+    <img alt="Maintenance" src="https://img.shields.io/github/workflow/status/DerYeger/noted/Maintenance?label=maintenance&logo=github&color=#4DC71F">
+  </a>
+  <a href="https://lgtm.com/projects/g/DerYeger/noted">
+    <img alt="LGTM Grade" src="https://img.shields.io/lgtm/grade/javascript/github/DerYeger/noted?logo=lgtm">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img alt="MIT" src="https://img.shields.io/github/license/DerYeger/noted?color=%234DC71F">
+  </a>
+</p>
+
+## Features
+
+- ✏️ **Note-taking** in markdown format with **real-time** preview
+- 🖥 **Syntax highlighting** based on [PrismJS](https://github.com/PrismJS/prism)
+- 📚 Organize notes in **sections** and **notebooks**
+- 💾 **Download** entire notebooks as `zip` files
+- 📱 Supports all devices with **responsive** design
+- 🌓 **Dark** and **light** themes
+- ⚙️ Works **offline** as installable **PWA**
+
+## Development
 
 ```bash
 # install dependencies
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# run development server
 $ yarn dev
 
-# build for production and launch server
-$ yarn build
+# build for production
+$ yarn generate
+
+# run production preview server
 $ yarn start
 
-# generate static project
-$ yarn generate
+# lint project files
+$ yarn lint
+
+# run tests
+$ yarn test
+
+# apply formatting
+$ yarn pretty
+
+# run storybook
+$ yarn storybook
 ```
+## License
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+[MIT](./LICENSE) - Copyright &copy; Jan Müller
