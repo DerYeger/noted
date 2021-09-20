@@ -12902,15 +12902,15 @@ prism-theme-vars@0.2.2:
   resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.2.tgz#a4c8dd0bfdb76c9b50a6ad8cd99a9ebe7a921a64"
   integrity sha512-EL9ifuU/F8tEldoCa2sspiiLWysCL54xDbf2gN/ubwdtbuJROqOGopG5kSwunapwaioT+jLUQ/Ky+7jnv62xJA==
 
-prismjs@1.24.1, prismjs@~1.24.0:
-  version "1.24.1"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.1.tgz#c4d7895c4d6500289482fa8936d9cdd192684036"
-  integrity sha512-mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow==
-
-prismjs@^1.21.0:
+prismjs@1.25.0, prismjs@^1.21.0:
   version "1.25.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.25.0.tgz#6f822df1bdad965734b310b315a23315cf999756"
   integrity sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==
+
+prismjs@~1.24.0:
+  version "1.24.1"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.1.tgz#c4d7895c4d6500289482fa8936d9cdd192684036"
+  integrity sha512-mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow==
 
 private@^0.1.8:
   version "0.1.8"
