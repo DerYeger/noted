@@ -1,3 +1,10 @@
+## [1.16.2](https://github.com/DerYeger/noted/compare/v1.16.1...v1.16.2) (2021-09-20)
+
+
+### Bug Fixes
+
+* **color-mode:** keep theme color after page navigation ([4944869](https://github.com/DerYeger/noted/commit/4944869f85dcc84b1def892083294d1e76e71c2e))
+
 ## [1.16.1](https://github.com/DerYeger/noted/compare/v1.16.0...v1.16.1) (2021-09-20)
 
 

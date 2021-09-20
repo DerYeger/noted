@@ -1,6 +1,6 @@
 {
   "name": "noted",
-  "version": "1.16.1",
+  "version": "1.16.2",
   "description": "Real-time note-taking with syntax highlighting.",
   "private": true,
   "scripts": {
