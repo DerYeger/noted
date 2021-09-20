@@ -11,7 +11,6 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
-import { eventHandler as indentationHandler } from 'indent-textarea'
 
 export default defineComponent({
   props: {
@@ -26,10 +25,10 @@ export default defineComponent({
     },
   },
   mounted() {
-    this.textArea.addEventListener('keydown', indentationHandler)
+    this.textArea.addEventListener('keydown', this.$indentHandler)
   },
   beforeDestroy() {
-    this.textArea.removeEventListener('keydown', indentationHandler)
+    this.textArea.removeEventListener('keydown', this.$indentHandler)
   },
 })
 </script>

@@ -17,6 +17,7 @@ export default {
   plugins: [
     { src: '~/plugins/host' },
     { src: '~/plugins/icons' },
+    { src: '~/plugins/indentTextarea.client' },
     { src: '~/plugins/marked' },
     { src: '~/plugins/masonryWall' },
     { src: '~/plugins/persistedState.client' },
