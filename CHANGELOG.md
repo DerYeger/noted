@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/DerYeger/noted/compare/v1.12.2...v1.13.0) (2021-09-20)
+
+
+### Features
+
+* **seo:** add meta data ([4f3ab8d](https://github.com/DerYeger/noted/commit/4f3ab8db9cfe38adaac36bb497ea734a7470adca))
+
 ## [1.12.2](https://github.com/DerYeger/noted/compare/v1.12.1...v1.12.2) (2021-09-20)
 
 
