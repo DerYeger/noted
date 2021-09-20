@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/DerYeger/noted/compare/v1.13.0...v1.14.0) (2021-09-20)
+
+
+### Features
+
+* **pwa:** update `theme-color` when color mode changes ([87986dc](https://github.com/DerYeger/noted/commit/87986dc54dd6223adf934f4c04fa68b8e02449ab))
+
 # [1.13.0](https://github.com/DerYeger/noted/compare/v1.12.2...v1.13.0) (2021-09-20)
 
 
