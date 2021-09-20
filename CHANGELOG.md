@@ -1,3 +1,10 @@
+## [1.16.6](https://github.com/DerYeger/noted/compare/v1.16.5...v1.16.6) (2021-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prismjs to v1.25.0 [security] ([55e9f4a](https://github.com/DerYeger/noted/commit/55e9f4a08d201ce2b0d96e3a6d21ef067a5cf53a))
+
 ## [1.16.5](https://github.com/DerYeger/noted/compare/v1.16.4...v1.16.5) (2021-09-20)
 
 
