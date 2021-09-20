@@ -19,6 +19,9 @@
         @menu="onMenu"
       />
       <SectionViewer v-if="currentSection" :id="currentSection.id" />
+      <div v-else class="section-placeholder text--secondary">
+        {{ $t('editor.notebooks.empty') }}
+      </div>
     </div>
   </ClientOnly>
 </template>
@@ -86,10 +89,11 @@ export default defineComponent({
   },
   methods: {
     createNewSection() {
+      const name = this.$t('editor.sections.new') as string
       const section: Section = {
         id: uuid(),
         content: '',
-        name: 'New Section',
+        name,
         notebookId: this.notebookId,
       }
       this.$store.commit('sections/add', section)
@@ -103,3 +107,12 @@ export default defineComponent({
   },
 })
 </script>
+
+<style scoped>
+.section-placeholder {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+</style>

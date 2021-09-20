@@ -15,7 +15,14 @@ export default {
     system: 'System',
   },
   editor: {
+    notebooks: {
+      empty: 'This notebook is empty',
+      new: 'New Notebook',
+    },
     placeholder: 'Start typing...',
+    sections: {
+      new: 'New Section',
+    },
   },
   error: {
     notebooks: {

@@ -30,7 +30,8 @@ export default defineComponent({
   },
   methods: {
     createNotebook() {
-      this.$store.dispatch('createNotebook', 'New Notebook')
+      const name = this.$t('editor.notebooks.new') as string
+      this.$store.dispatch('createNotebook', name)
     },
     deleteNotebook(id: string) {
       this.$store.commit('notebooks/remove', id)
