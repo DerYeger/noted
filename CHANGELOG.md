@@ -1,3 +1,10 @@
+## [1.16.4](https://github.com/DerYeger/noted/compare/v1.16.3...v1.16.4) (2021-09-20)
+
+
+### Bug Fixes
+
+* **i18n:** add missing translation ([ec1619e](https://github.com/DerYeger/noted/commit/ec1619e49480821d9b1474f9f42c40d1c28e8719))
+
 ## [1.16.3](https://github.com/DerYeger/noted/compare/v1.16.2...v1.16.3) (2021-09-20)
 
 
