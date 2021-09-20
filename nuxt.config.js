@@ -37,6 +37,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://composition-api.nuxtjs.org/
     '@nuxtjs/composition-api/module',
+    // https://color-mode.nuxtjs.org/
+    '@nuxtjs/color-mode',
     // https://github.com/ivodolenc/nuxt-font-loader
     'nuxt-font-loader',
   ],

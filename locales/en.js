@@ -8,6 +8,11 @@ export default {
   app: {
     title: 'Noted',
   },
+  'color-modes': {
+    dark: 'Dark',
+    light: 'Light',
+    system: 'System',
+  },
   editor: {
     placeholder: 'Start typing...',
   },
@@ -23,5 +28,11 @@ export default {
     home: 'Home',
     notebooks: 'Notebooks',
     settings: 'Settings',
+  },
+  settings: {
+    appearance: {
+      'color-mode': 'Theme',
+      title: 'Appearance',
+    },
   },
 }

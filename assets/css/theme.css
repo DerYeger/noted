@@ -4,6 +4,7 @@
   --border-radius-medium: 0.25rem;
   --border-radius-large: 0.5rem;
   --border-radius-xl: 1.5rem;
+  --color-background: #403235;
   --color-primary: #462A39;
   --color-secondary: #637949;
   --color-secondary-darken: #39462A;
@@ -19,7 +20,17 @@
   --fs-medium: 1rem;
   --fs-small: 0.8rem;
   --glass-blur: 0.25rem;
+  --shadow-depressed:
+    0.5rem 0.5rem 0.75rem 0 var(--color-darken-3) inset,
+    -0.125rem -0.125rem 1rem 0 var(--color-lighten-1) inset;
+  --shadow-elevated:
+    0.5rem 0.5rem 0.75rem 0 var(--color-darken-2),
+    -0.125rem -0.125rem 1rem 0 var(--color-lighten-2);
   --text-primary: white;
+}
+
+.dark-mode {
+  --color-background: #212121;
 }
 
 .darken-on-focus {
@@ -41,13 +52,9 @@
 
 pre,
 .elevated {
-  box-shadow:
-    0.5rem 0.5rem 0.75rem 0 var(--color-darken-2),
-    -0.125rem -0.125rem 1rem 0 var(--color-lighten-2);
+  box-shadow: var(--shadow-elevated)
 }
 
 .depressed {
-  box-shadow:
-    0.5rem 0.5rem 0.75rem 0 var(--color-darken-3) inset,
-    -0.125rem -0.125rem 1rem 0 var(--color-lighten-1) inset;
+  box-shadow: var(--shadow-depressed);
 }

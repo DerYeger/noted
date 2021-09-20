@@ -12,11 +12,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
-
-interface DynamicComponent {
-  name: string
-  props?: Record<string, any>
-}
+import { DynamicComponent } from '~/types/dynamicComponent'
 
 export default defineComponent({
   computed: {

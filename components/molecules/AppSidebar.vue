@@ -35,7 +35,7 @@ export default defineComponent({
 
 @media only screen and (max-width: 600px) {
   .app__sidebar {
-    background: var(--color-primary);
+    background: var(--color-background);
     inset: 0;
     position: absolute;
     z-index: 42;
