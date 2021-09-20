@@ -10,8 +10,18 @@
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
 import { Notebook } from '~/model/notebooks'
+import { generateSocialTags } from '~/model/meta'
+import { routes } from '~/model/routes'
 
 export default defineComponent({
+  head() {
+    const title = this.$t(routes.notebooks.title) as string
+    const description = this.$t('meta.description') as string
+    return {
+      title,
+      meta: [...generateSocialTags(title, description)],
+    }
+  },
   computed: {
     notebooks(): Notebook[] {
       return this.$store.getters['notebooks/all']

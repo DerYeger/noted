@@ -21,6 +21,27 @@ export default defineComponent({
       sidebarOpen: false,
     }
   },
+  head() {
+    const path = this.$route.path.length === 1 ? '' : this.$route.path
+    return {
+      htmlAttrs: {
+        lang: this.$i18n.locale,
+      },
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('meta.description') as string,
+        },
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: `${this.$host}${path}/`,
+        },
+      ],
+    }
+  },
 })
 </script>
 

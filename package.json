@@ -1,6 +1,7 @@
 {
   "name": "noted",
   "version": "1.12.2",
+  "description": "Real-time note-taking with syntax highlighting.",
   "private": true,
   "scripts": {
     "dev": "nuxt",

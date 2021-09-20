@@ -21,6 +21,9 @@ export default {
       'not-found': 'Notebook {0} does not exist',
     },
   },
+  meta: {
+    description: 'Real-time note-taking with syntax highlighting.',
+  },
   misc: {
     'source-code': 'Source',
   },

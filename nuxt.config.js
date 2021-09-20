@@ -7,7 +7,10 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Noted',
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `Noted | ${titleChunk}` : 'Noted'
+    },
+    title: undefined,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -96,6 +99,7 @@ export default {
     manifest: {
       name: app.name,
       short_name: app.name,
+      background_color: app.theme.primaryColor,
     },
     meta: {
       name: app.name,

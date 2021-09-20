@@ -30,6 +30,7 @@ import { Section } from '~/model/section'
 import { uuid } from '~/model/entity'
 import { routes } from '~/model/routes'
 import { Tab } from '~/model/tab'
+import { generateSocialTags } from '~/model/meta'
 
 export default defineComponent({
   validate({ i18n, params, store }): boolean {
@@ -47,6 +48,14 @@ export default defineComponent({
     return {
       notebooksRoute: routes.notebooks,
       tab: '',
+    }
+  },
+  head() {
+    const title = this.notebook.name as string
+    const description = this.$t('meta.description') as string
+    return {
+      title,
+      meta: [...generateSocialTags(title, description)],
     }
   },
   computed: {
