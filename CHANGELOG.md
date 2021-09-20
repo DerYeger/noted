@@ -1,3 +1,10 @@
+## [1.16.3](https://github.com/DerYeger/noted/compare/v1.16.2...v1.16.3) (2021-09-20)
+
+
+### Bug Fixes
+
+* **meta:** add types ([3f5a594](https://github.com/DerYeger/noted/commit/3f5a594d99e1aa5dd1f771691a0587ae3ebeb905))
+
 ## [1.16.2](https://github.com/DerYeger/noted/compare/v1.16.1...v1.16.2) (2021-09-20)
 
 
