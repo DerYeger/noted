@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/DerYeger/noted/compare/v1.16.0...v1.16.1) (2021-09-20)
+
+
+### Bug Fixes
+
+* **design:** use secondary color for loading indicator ([1b4459f](https://github.com/DerYeger/noted/commit/1b4459fdb4324026229b9022275a8299bc2d17a6))
+
 # [1.16.0](https://github.com/DerYeger/noted/compare/v1.15.0...v1.16.0) (2021-09-20)
 
 
