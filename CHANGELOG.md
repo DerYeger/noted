@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/DerYeger/noted/compare/v1.10.4...v1.11.0) (2021-09-20)
+
+
+### Features
+
+* **color-mode:** add theme selection ([ce43f8a](https://github.com/DerYeger/noted/commit/ce43f8a25211d8632c3ca2dd44d64e8270508bb2))
+
 ## [1.10.4](https://github.com/DerYeger/noted/compare/v1.10.3...v1.10.4) (2021-09-20)
 
 
