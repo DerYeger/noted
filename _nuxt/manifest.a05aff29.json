@@ -1,7 +1,7 @@
 {
   "name": "Noted",
   "short_name": "Noted",
-  "description": "## Build Setup",
+  "description": "Real-time note-taking with syntax highlighting.",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.e3e9fb.png",
@@ -48,7 +48,7 @@
   ],
   "start_url": "/?standalone=true",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#212121",
   "theme_color": "#212121",
   "lang": "en"
 }
