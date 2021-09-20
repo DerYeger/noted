@@ -1,14 +1,15 @@
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { MetaInfo } from 'vue-meta'
 
 export default defineComponent({
-  head() {
+  head(): MetaInfo {
     return {
       meta: [
         {
           hid: 'theme-color',
           name: 'theme-color',
-          content: this.themeColor as string,
+          content: this.themeColor,
         },
       ],
     }

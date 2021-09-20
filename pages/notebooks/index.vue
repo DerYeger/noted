@@ -9,12 +9,13 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { MetaInfo } from 'vue-meta'
 import { Notebook } from '~/model/notebooks'
 import { generateSocialTags } from '~/model/meta'
 import { routes } from '~/model/routes'
 
 export default defineComponent({
-  head() {
+  head(): MetaInfo {
     const title = this.$t(routes.notebooks.title) as string
     const description = this.$t('meta.description') as string
     return {

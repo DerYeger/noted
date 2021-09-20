@@ -15,6 +15,7 @@
 <script lang="ts">
 import { defineComponent, PropType } from '@nuxtjs/composition-api'
 import { NuxtError } from '@nuxt/types'
+import { MetaInfo } from 'vue-meta'
 import { routes } from '~/model/routes'
 
 export default defineComponent({
@@ -29,9 +30,8 @@ export default defineComponent({
       homeRoute: routes.home,
     }
   },
-  head() {
-    const error = this.error as NuxtError
-    const title = error.statusCode === 404 ? '404' : error.message
+  head(): MetaInfo {
+    const title = this.error.statusCode === 404 ? '404' : this.error.message
     return {
       title,
     }

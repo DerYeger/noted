@@ -21,6 +21,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { MetaInfo } from 'vue-meta'
 
 export default defineComponent({
   data() {
@@ -28,7 +29,7 @@ export default defineComponent({
       sidebarOpen: false,
     }
   },
-  head() {
+  head(): MetaInfo {
     const path = this.$route.path.length === 1 ? '' : this.$route.path
     return {
       htmlAttrs: {

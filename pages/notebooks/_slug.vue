@@ -25,6 +25,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { MetaInfo } from 'vue-meta'
 import { Notebook } from '~/model/notebooks'
 import { Section } from '~/model/section'
 import { uuid } from '~/model/entity'
@@ -50,8 +51,8 @@ export default defineComponent({
       tab: '',
     }
   },
-  head() {
-    const title = this.notebook.name as string
+  head(): MetaInfo {
+    const title = this.notebook.name
     const description = this.$t('meta.description') as string
     return {
       title,

@@ -12,12 +12,13 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { MetaInfo } from 'vue-meta'
 import { generateSocialTags } from '~/model/meta'
 import { routes } from '~/model/routes'
 import { DynamicComponent } from '~/types/dynamicComponent'
 
 export default defineComponent({
-  head() {
+  head(): MetaInfo {
     const title = this.$t(routes.home.title) as string
     const description = this.$t('meta.description') as string
     return {
