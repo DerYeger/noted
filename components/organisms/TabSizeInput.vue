@@ -1,5 +1,9 @@
 <template>
-  <NumberInput v-model="tabSize" min="0" />
+  <NumberInput
+    v-model="tabSize"
+    min="0"
+    style="text-align: center; width: 4rem"
+  />
 </template>
 
 <script lang="ts">

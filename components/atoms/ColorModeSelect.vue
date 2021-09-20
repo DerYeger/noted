@@ -16,7 +16,7 @@ export const colorModes = ['system', 'light', 'dark']
   border-radius: var(--border-radius-large);
   box-shadow: var(--shadow-depressed);
   min-width: 4rem;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
   text-align: center;
 }
 </style>
