@@ -1,5 +1,8 @@
 <template>
   <AppWrapper>
+    <ClientOnly>
+      <ThemeColorSetter />
+    </ClientOnly>
     <AppHeader>
       <HamburgerButton
         v-model="sidebarOpen"
@@ -45,19 +48,6 @@ export default defineComponent({
         },
       ],
     }
-  },
-  computed: {
-    colorMode(): string {
-      return this.$colorMode.preference
-    },
-  },
-  watch: {
-    colorMode() {
-      const style = getComputedStyle(document.body)
-      const color = style.getPropertyValue('--color-background')
-      const tag = document.querySelector('meta[name="theme-color"]')
-      tag?.setAttribute('content', color)
-    },
   },
 })
 </script>
