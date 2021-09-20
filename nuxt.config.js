@@ -91,7 +91,7 @@ export default {
   },
 
   loading: {
-    color: app.theme.primaryColor,
+    color: app.theme.secondaryColor,
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

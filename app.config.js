@@ -6,5 +6,6 @@ export default {
   name: 'Noted',
   theme: {
     primaryColor: '#212121',
+    secondaryColor: '#637949',
   },
 }
