@@ -21,7 +21,7 @@ export default defineComponent({
   },
   methods: {
     closeIfMobile() {
-      if (window.outerWidth <= 600) {
+      if (window.innerWidth <= 600) {
         this.$emit('input', false)
       }
     },
