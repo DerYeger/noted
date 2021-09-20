@@ -1,3 +1,10 @@
+## [1.12.2](https://github.com/DerYeger/noted/compare/v1.12.1...v1.12.2) (2021-09-20)
+
+
+### Bug Fixes
+
+* **design:** update theme ([dac89e0](https://github.com/DerYeger/noted/commit/dac89e0be49d39cc7d12f662aa43cab3398aa618))
+
 ## [1.12.1](https://github.com/DerYeger/noted/compare/v1.12.0...v1.12.1) (2021-09-20)
 
 
