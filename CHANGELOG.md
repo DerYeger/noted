@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/DerYeger/noted/compare/v1.11.0...v1.12.0) (2021-09-20)
+
+
+### Features
+
+* **design:** add icons ([5df9ace](https://github.com/DerYeger/noted/commit/5df9ace1865791eebb32d45e3f1d24b652d1b3da))
+
 # [1.11.0](https://github.com/DerYeger/noted/compare/v1.10.4...v1.11.0) (2021-09-20)
 
 
