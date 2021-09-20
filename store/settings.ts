@@ -3,7 +3,7 @@ export interface Settings {
 }
 
 export const state: () => Settings = () => ({
-  tabSize: 10,
+  tabSize: 4,
 })
 
 export const getters = {

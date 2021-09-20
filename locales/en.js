@@ -1,9 +1,9 @@
 export default {
   actions: {
-    close: 'Close',
     delete: 'Delete',
     download: 'Download',
     open: 'Open',
+    'toggle-menu': 'Toggle menu',
   },
   app: {
     title: 'Noted',
@@ -35,6 +35,7 @@ export default {
   settings: {
     appearance: {
       'color-mode': 'Theme',
+      'tab-size': 'Tab Size (Editor)',
       title: 'Appearance',
     },
   },

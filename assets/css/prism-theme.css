@@ -18,7 +18,6 @@
   --prism-punctuation: var(--prism-white);
   --prism-decorator: #bd8f8f;
   --prism-json-property: #698c96;
-  --prism-tab-size: var(--tab-size);
 }
 
 pre {

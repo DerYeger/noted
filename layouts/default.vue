@@ -1,7 +1,11 @@
 <template>
   <AppWrapper>
     <AppHeader>
-      <HamburgerButton v-model="sidebarOpen" style="margin: 0 1rem 0 0.5rem" />
+      <HamburgerButton
+        v-model="sidebarOpen"
+        style="margin: 0 1rem 0 0.5rem"
+        :aria-label="$t('actions.toggle-menu')"
+      />
     </AppHeader>
     <div class="app__content">
       <AppSidebar v-model="sidebarOpen" />

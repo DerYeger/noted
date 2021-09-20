@@ -44,6 +44,7 @@ export default defineComponent({
   resize: none;
   overflow-wrap: normal;
   overflow-x: auto;
+  tab-size: var(--tab-size);
   width: 100%;
 }
 

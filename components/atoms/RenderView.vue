@@ -25,8 +25,8 @@ export default defineComponent({
 <style>
 .render-view {
   background: var(--color-lighten-1);
-  padding: 1rem;
   min-height: 100%;
+  padding: 1rem;
 }
 
 .render-view > *:first-child {

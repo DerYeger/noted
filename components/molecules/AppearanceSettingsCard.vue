@@ -4,8 +4,14 @@
     <CardContent>
       <ul>
         <li>
-          <span>{{ $t('settings.appearance.color-mode') }}</span>
-          <ColorModeSelect />
+          <label for="color-mode">
+            {{ $t('settings.appearance.color-mode') }}
+          </label>
+          <ColorModeSelect id="color-mode" />
+        </li>
+        <li>
+          <label for="tab-size">{{ $t('settings.appearance.tab-size') }}</label>
+          <TabSizeInput id="tab-size" />
         </li>
       </ul>
     </CardContent>
@@ -22,7 +28,11 @@
   list-style: none;
 }
 
-.appearance-settings li span {
+.appearance-settings li + li {
+  margin-top: 1rem;
+}
+
+.appearance-settings li label {
   margin-right: 1rem;
 }
 </style>
