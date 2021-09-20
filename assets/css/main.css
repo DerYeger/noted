@@ -15,6 +15,7 @@ body,
 body {
   background: var(--color-background);
   color: var(--text-primary);
+  transition: background var(--anim-medium) ease, color var(--anim-medium) ease;
 }
 
 *:not(:is(pre *, code *)) {
