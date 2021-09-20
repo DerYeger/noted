@@ -62,3 +62,11 @@ body {
 .no-touch-callout {
   -webkit-touch-callout: none;
 }
+
+* + .material-design-icon {
+  margin-left: 0.5rem;
+}
+
+.material-design-icon__svg {
+  bottom: 0 !important;
+}

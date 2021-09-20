@@ -22,7 +22,7 @@ export default {
     },
   },
   misc: {
-    'source-code': 'Source code',
+    'source-code': 'Source',
   },
   routes: {
     home: 'Home',

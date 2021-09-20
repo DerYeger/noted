@@ -17,6 +17,7 @@
           target="_blank"
         >
           {{ $t('misc.source-code') }}
+          <OpenInNewIcon />
         </a>
       </li>
     </ul>
@@ -52,14 +53,15 @@ export default defineComponent({
 }
 
 .app__navigation a {
+  background: var(--background-concave);
   border-bottom-right-radius: var(--border-radius-xl);
   border-top-right-radius: var(--border-radius-xl);
   color: var(--text-primary);
-  display: block;
+  display: flex;
+  justify-content: space-between;
   margin-left: -1rem;
   padding: 0.75em 2rem 0.75em 2rem;
   transition: background var(--anim-medium) ease;
-  text-decoration: none;
 }
 
 .app__navigation a:focus-visible,
@@ -69,6 +71,12 @@ export default defineComponent({
 
 .app__navigation a.nuxt-link-exact-active {
   background: var(--color-lighten-3);
+}
+
+.app__navigation a .material-design-icon {
+  font-size: var(--fs-small);
+  position: absolute;
+  right: 2rem;
 }
 
 .source-link {

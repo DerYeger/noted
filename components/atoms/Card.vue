@@ -1,5 +1,5 @@
 <template>
-  <div class="card elevated">
+  <div class="card concave elevated">
     <slot />
   </div>
 </template>

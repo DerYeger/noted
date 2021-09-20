@@ -1,6 +1,16 @@
 :root {
   --anim-medium: 0.25s;
   --anim-short: 0.1s;
+  --background-concave: linear-gradient(
+    145deg,
+    var(--color-darken-1),
+    var(--color-lighten-1)
+  );
+  --background-convex: linear-gradient(
+    145deg,
+    var(--color-lighten-1),
+    var(--color-darken-1)
+  );;
   --border-radius-medium: 0.25rem;
   --border-radius-large: 0.5rem;
   --border-radius-xl: 1.5rem;
@@ -57,4 +67,12 @@ pre,
 
 .depressed {
   box-shadow: var(--shadow-depressed);
+}
+
+.concave {
+  background: var(--background-concave);
+}
+
+.convex {
+  background: var(--background-convex);
 }

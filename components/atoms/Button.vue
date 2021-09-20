@@ -33,11 +33,15 @@ export default defineComponent({
 
 <style scoped>
 button {
+  align-items: center;
   background: var(--button-color);
   border: none;
   border-radius: var(--border-radius-medium);
   color: var(--text-primary);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 100%;
   min-width: 4em;
   padding: 0.5em 1em;
 }

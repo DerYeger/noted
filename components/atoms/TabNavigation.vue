@@ -11,7 +11,9 @@
         <Button small>{{ tab.title }}</Button>
       </li>
       <li @click="$emit('add')">
-        <Button small>+</Button>
+        <Button small>
+          <PlusIcon />
+        </Button>
       </li>
     </ul>
   </nav>
