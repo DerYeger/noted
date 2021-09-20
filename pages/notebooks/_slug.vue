@@ -97,6 +97,7 @@ export default defineComponent({
         notebookId: this.notebookId,
       }
       this.$store.commit('sections/add', section)
+      this.tab = section.id
     },
     onMenu(id: string) {
       this.$store.commit('sections/remove', id)
