@@ -1,3 +1,14 @@
+## [1.16.5](https://github.com/DerYeger/noted/compare/v1.16.4...v1.16.5) (2021-09-20)
+
+
+### Bug Fixes
+
+* **design:**  update input style ([b88728c](https://github.com/DerYeger/noted/commit/b88728cd7a4b9db7d2c0b9a7055a844d6b983238))
+* **design:** transition `background` and `color` of `body` ([0a28649](https://github.com/DerYeger/noted/commit/0a286499b56d0bdc64d0dfb5083e63e66ea26658))
+* select section after creation ([ac1cf93](https://github.com/DerYeger/noted/commit/ac1cf9335fbb65ffb2ca4a739197a4a94bba99a3))
+* show placeholder if no section exists ([2bf3a46](https://github.com/DerYeger/noted/commit/2bf3a462287f4eeddb87c942876bec6f0133e191))
+* **sidebar:** use `innerWidth` to determine if mobile ([ca7c9a9](https://github.com/DerYeger/noted/commit/ca7c9a94e706eaea51f394e38ef694e1bf5f1413))
+
 ## [1.16.4](https://github.com/DerYeger/noted/compare/v1.16.3...v1.16.4) (2021-09-20)
 
 
