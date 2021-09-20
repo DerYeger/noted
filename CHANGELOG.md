@@ -1,3 +1,15 @@
+# [1.16.0](https://github.com/DerYeger/noted/compare/v1.15.0...v1.16.0) (2021-09-20)
+
+
+### Bug Fixes
+
+* **design:** remove tap highlight ([bcb6bd3](https://github.com/DerYeger/noted/commit/bcb6bd38ceb6e088a29f5b6d6b64fd1a929c1d3c))
+
+
+### Features
+
+* close sidebar after navigation on mobile ([a75816a](https://github.com/DerYeger/noted/commit/a75816ac961ff33ff1da7e31eb356ea196069f99))
+
 # [1.15.0](https://github.com/DerYeger/noted/compare/v1.14.0...v1.15.0) (2021-09-20)
 
 
