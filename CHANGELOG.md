@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/DerYeger/noted/compare/v1.12.0...v1.12.1) (2021-09-20)
+
+
+### Bug Fixes
+
+* use `indent-textarea` as plugin ([a08c66e](https://github.com/DerYeger/noted/commit/a08c66e5b1dd3d5b403b50e24cf00d04d5876d92))
+
 # [1.12.0](https://github.com/DerYeger/noted/compare/v1.11.0...v1.12.0) (2021-09-20)
 
 
