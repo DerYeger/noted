@@ -5,7 +5,7 @@
       :value="value"
       @input="$emit('input', !value)"
     />
-    <AppNavigation />
+    <AppNavigation @navigate="closeIfMobile" />
   </aside>
 </template>
 
@@ -17,6 +17,13 @@ export default defineComponent({
     value: {
       type: Boolean,
       required: true,
+    },
+  },
+  methods: {
+    closeIfMobile() {
+      if (window.outerWidth <= 600) {
+        this.$emit('input', false)
+      }
     },
   },
 })

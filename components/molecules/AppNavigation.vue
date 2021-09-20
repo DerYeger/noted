@@ -5,6 +5,7 @@
         <NuxtLink
           :to="localePath(route.path)"
           class="elevated no-touch-callout unselectable"
+          @click.native="$emit('navigate')"
         >
           {{ $t(route.title) }}
         </NuxtLink>
@@ -15,6 +16,7 @@
           href="https://github.com/DerYeger/noted"
           rel="noopener"
           target="_blank"
+          @click="$emit('navigate')"
         >
           {{ $t('misc.source-code') }}
           <OpenInNewIcon />
