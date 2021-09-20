@@ -4,7 +4,7 @@
       <li v-for="route in routes" :key="route.path">
         <NuxtLink
           :to="localePath(route.path)"
-          class="elevated no-touch-callout unselectable"
+          class="elevated unselectable"
           @click.native="$emit('navigate')"
         >
           {{ $t(route.title) }}
@@ -12,7 +12,7 @@
       </li>
       <li>
         <a
-          class="elevated no-touch-callout source-link unselectable"
+          class="elevated source-link unselectable"
           href="https://github.com/DerYeger/noted"
           rel="noopener"
           target="_blank"
