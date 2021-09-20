@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/DerYeger/noted/compare/v1.14.0...v1.15.0) (2021-09-20)
+
+
+### Features
+
+* **settings:** add tab size setting ([af4373d](https://github.com/DerYeger/noted/commit/af4373d2cf98f436944e59816f0cf272a5fdb72f))
+
 # [1.14.0](https://github.com/DerYeger/noted/compare/v1.13.0...v1.14.0) (2021-09-20)
 
 
