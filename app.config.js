@@ -5,6 +5,6 @@ export default {
       : 'https://noted.yeger.eu',
   name: 'Noted',
   theme: {
-    primaryColor: '#21141B',
+    primaryColor: '#212121',
   },
 }

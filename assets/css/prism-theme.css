@@ -11,8 +11,8 @@
   --prism-keyword: var(--prism-orange);
   --prism-function: var(--prism-yellow);
   --prism-deleted: #a14f55;
-  --prism-class: #2b91af;
-  --prism-builtin: #a52727;
+  --prism-class: var(--prism-white);
+  --prism-builtin: var(--prism-yellow);
   --prism-property: var(--prism-yellow);
   --prism-namespace: #c96880;
   --prism-punctuation: var(--prism-white);

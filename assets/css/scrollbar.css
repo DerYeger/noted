@@ -19,6 +19,6 @@
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--color-primary);
+  background: var(--color-background);
   border-radius: 0;
 }
