@@ -1,5 +1,6 @@
 export default {
   actions: {
+    close: 'Close',
     delete: 'Delete',
     download: 'Download',
     open: 'Open',
