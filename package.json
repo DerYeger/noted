@@ -1,6 +1,6 @@
 {
   "name": "noted",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "private": true,
   "scripts": {
     "dev": "nuxt",

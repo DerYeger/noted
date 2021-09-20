@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/DerYeger/noted/compare/v1.10.2...v1.10.3) (2021-09-20)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency jszip to 3.7.1 ([749d5e6](https://github.com/DerYeger/noted/commit/749d5e64ad0b689b865327e312cf45c70244f0de))
+
 ## [1.10.2](https://github.com/DerYeger/noted/compare/v1.10.1...v1.10.2) (2021-09-19)
 
 
