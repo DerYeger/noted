@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/DerYeger/noted/compare/v1.16.6...v1.17.0) (2021-09-21)
+
+
+### Features
+
+* **sidebar:** improve ui on small screens ([2885de5](https://github.com/DerYeger/noted/commit/2885de5126a6cbd07b6d13ab7e668826e815a520))
+
 ## [1.16.6](https://github.com/DerYeger/noted/compare/v1.16.5...v1.16.6) (2021-09-20)
 
 
