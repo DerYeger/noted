@@ -39,10 +39,11 @@ button {
   border-radius: var(--border-radius-medium);
   color: var(--text-primary);
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   height: 100%;
-  min-width: 4em;
+  min-width: max(4em, -moz-fit-content);
+  min-width: max(4em, fit-content);
   padding: 0.5em 1em;
 }
 

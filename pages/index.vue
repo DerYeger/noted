@@ -28,12 +28,12 @@ export default defineComponent({
   },
   computed: {
     components(): DynamicComponent[] {
-      const notebooks = this.$store.getters['notebooks/all']
+      const recentlyEdited = this.$store.getters['notebooks/recent'](3)
       return [
         {
           name: 'NotebookList',
           props: {
-            notebooks,
+            notebooks: recentlyEdited,
           },
         },
       ]

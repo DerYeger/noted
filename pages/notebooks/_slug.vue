@@ -1,7 +1,7 @@
 <template>
   <ClientOnly>
     <div class="h-100 d-flex flex-column">
-      <Toolbar class="ma-4">
+      <Toolbar class="my-4">
         <NuxtLink :to="localePath(notebooksRoute.path)">
           <Button color="warn">
             {{ $t('actions.close') }}
@@ -10,11 +10,20 @@
         <Button color="secondary" @click="download">
           {{ $t('actions.download') }}
         </Button>
+        <TextInput
+          v-model="notebookName"
+          :placeholder="$t('editor.notebooks.name')"
+        />
+        <TextInput
+          v-show="currentSection"
+          v-model="currentSectionName"
+          :placeholder="$t('editor.sections.name')"
+        />
       </Toolbar>
       <TabNavigation
         v-model="tab"
         :tabs="tabs"
-        class="mx-4 mb-4"
+        class="mb-4"
         @add="createNewSection"
         @menu="onMenu"
       />
@@ -69,6 +78,17 @@ export default defineComponent({
     notebook(): Notebook {
       return this.$store.getters['notebooks/byId'](this.notebookId)
     },
+    notebookName: {
+      get(): string {
+        return this.notebook.name
+      },
+      set(value: string) {
+        if (!value) {
+          return
+        }
+        this.$store.commit('notebooks/add', { ...this.notebook, name: value })
+      },
+    },
     sections(): Section[] {
       return this.$store.getters['sections/byNotebookId'](this.notebookId)
     },
@@ -80,6 +100,21 @@ export default defineComponent({
     },
     currentSection(): Section | undefined {
       return this.$store.getters['sections/byId'](this.tab)
+    },
+    currentSectionName: {
+      get(): string {
+        return this.currentSection?.name ?? ''
+      },
+      set(value: string) {
+        if (!value) {
+          return
+        }
+        this.$store.commit('sections/add', {
+          ...this.currentSection,
+          name: value,
+        })
+        this.$store.commit('notebooks/updateLastEdit', this.notebookId)
+      },
     },
   },
   mounted() {
@@ -101,6 +136,9 @@ export default defineComponent({
     },
     onMenu(id: string) {
       this.$store.commit('sections/remove', id)
+      if (this.tab === id) {
+        this.tab = this.tabs[0]?.id ?? ''
+      }
     },
     download() {
       this.$store.dispatch('notebooks/download', this.notebookId)

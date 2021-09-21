@@ -36,6 +36,7 @@ export default defineComponent({
           ...this.section,
           content: value,
         })
+        this.$store.commit('notebooks/updateLastEdit', this.section.notebookId)
       },
     },
   },

@@ -1,5 +1,5 @@
 <template>
-  <AppWrapper>
+  <AppWrapper :class="{ 'sidebar-open': sidebarOpen }">
     <ClientOnly>
       <ThemeColorSetter />
     </ClientOnly>
@@ -12,7 +12,7 @@
     </AppHeader>
     <div class="app__content">
       <AppSidebar v-model="sidebarOpen" />
-      <main class="depressed" :class="{ 'rounded-top-left': sidebarOpen }">
+      <main class="depressed">
         <Nuxt />
       </main>
     </div>
@@ -66,11 +66,27 @@ main {
   flex-grow: 1;
   height: 100%;
   overflow-x: hidden;
-  transition: var(--anim-medium);
+  transition: position var(--anim-medium) ease,
+    transform var(--anim-medium) ease, width var(--anim-medium) ease;
+  overflow-y: auto;
+  transform: translateX(0);
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar-open {
+    overflow-x: hidden;
+  }
+
+  .sidebar-open main {
+    position: absolute;
+    transform: translateX(100%);
+    inset: 0;
+    width: 0;
+  }
 }
 
 @media only screen and (min-width: 601px) {
-  .rounded-top-left {
+  .sidebar-open main {
     border-top-left-radius: var(--border-radius-large);
   }
 }

@@ -19,6 +19,7 @@ export const actions = {
       id: notebookId,
       name,
       sectionIds: [sectionId],
+      lastEdit: Date.now(),
     }
     const section: Section = {
       id: sectionId,

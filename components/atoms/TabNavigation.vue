@@ -41,8 +41,7 @@ export default defineComponent({
 nav {
   overflow-x: auto;
   overflow-y: hidden;
-  padding-bottom: 0.75rem;
-  width: 100%;
+  padding-bottom: 0.5rem;
 }
 
 ul {
@@ -50,7 +49,7 @@ ul {
   flex-wrap: nowrap;
   gap: 0.5rem;
   list-style: none;
-  margin: 0;
+  margin: 0 1rem;
   padding: 0;
 }
 

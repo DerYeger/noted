@@ -17,10 +17,12 @@ export default {
   editor: {
     notebooks: {
       empty: 'This notebook is empty',
+      name: 'Notebook name',
       new: 'New Notebook',
     },
     placeholder: 'Start typing...',
     sections: {
+      name: 'Section name',
       new: 'New Section',
     },
   },
@@ -32,13 +34,11 @@ export default {
   meta: {
     description: 'Real-time note-taking with syntax highlighting.',
   },
-  misc: {
-    'source-code': 'Source',
-  },
   routes: {
     home: 'Home',
     notebooks: 'Notebooks',
     settings: 'Settings',
+    source: 'Source',
   },
   settings: {
     appearance: {

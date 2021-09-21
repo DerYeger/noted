@@ -51,16 +51,26 @@ export const getters = {
     (state: NotebookState) =>
     (id: string): Notebook | undefined =>
       state[id],
+  recent:
+    (state: NotebookState) =>
+    (limit: number): Notebook[] =>
+      Object.values(state)
+        .sort((a, b) => a.lastEdit - b.lastEdit)
+        .reverse()
+        .slice(0, limit),
 }
 
 export const mutations = {
   add(state: NotebookState, notebook: Notebook) {
-    Vue.set(state, notebook.id, notebook)
+    Vue.set(state, notebook.id, { ...notebook, lastEdit: Date.now() })
   },
   remove(state: NotebookState, id: string) {
     Vue.delete(state, id)
   },
   removeAll(state: NotebookState) {
     Object.values(state).forEach((notebook) => Vue.delete(state, notebook.id))
+  },
+  updateLastEdit(state: NotebookState, id: string) {
+    state[id].lastEdit = Date.now()
   },
 }
