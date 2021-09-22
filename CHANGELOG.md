@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/DerYeger/noted/compare/v1.18.0...v1.19.0) (2021-09-22)
+
+
+### Features
+
+* **design:** add custom checkbox ([fc37fa7](https://github.com/DerYeger/noted/commit/fc37fa7ddbc159176d2ac99ae22e281414f9789d))
+
 # [1.18.0](https://github.com/DerYeger/noted/compare/v1.17.2...v1.18.0) (2021-09-22)
 
 
