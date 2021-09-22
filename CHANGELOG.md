@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/DerYeger/noted/compare/v1.17.2...v1.18.0) (2021-09-22)
+
+
+### Features
+
+* add optional sanitizing ([32f6e79](https://github.com/DerYeger/noted/commit/32f6e7985366ee5c05547ed0a86005613d1e5727))
+
 ## [1.17.2](https://github.com/DerYeger/noted/compare/v1.17.1...v1.17.2) (2021-09-22)
 
 
