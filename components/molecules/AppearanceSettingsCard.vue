@@ -25,14 +25,13 @@
 }
 
 .appearance-settings li {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
   list-style: none;
 }
 
 .appearance-settings li + li {
   margin-top: 1rem;
-}
-
-.appearance-settings li label {
-  margin-right: 1rem;
 }
 </style>

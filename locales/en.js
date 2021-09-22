@@ -46,5 +46,9 @@ export default {
       'tab-size': 'Tab Size (Editor)',
       title: 'Appearance',
     },
+    general: {
+      sanitize: 'Sanitize input',
+      title: 'General',
+    },
   },
 }

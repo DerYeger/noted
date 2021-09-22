@@ -5,6 +5,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import DOMPurify from 'dompurify'
 
 export default defineComponent({
   props: {
@@ -15,8 +16,11 @@ export default defineComponent({
   },
   computed: {
     htmlOutput(): string {
-      // TODO sanitize
-      return this.$md(this.input)
+      const parsed = this.$md(this.input)
+      if (this.$store.getters['settings/sanitize']) {
+        return DOMPurify.sanitize(parsed)
+      }
+      return parsed
     },
   },
 })

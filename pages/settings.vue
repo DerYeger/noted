@@ -30,6 +30,9 @@ export default defineComponent({
     components(): DynamicComponent[] {
       return [
         {
+          name: 'GeneralSettingsCard',
+        },
+        {
           name: 'AppearanceSettingsCard',
         },
       ]
