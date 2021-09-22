@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/DerYeger/noted/compare/v1.19.0...v1.19.1) (2021-09-22)
+
+
+### Bug Fixes
+
+* **design:** update checkbox design ([6430488](https://github.com/DerYeger/noted/commit/6430488400784475f7bcc597a06c7ce9aaa5bc52))
+
 # [1.19.0](https://github.com/DerYeger/noted/compare/v1.18.0...v1.19.0) (2021-09-22)
 
 
