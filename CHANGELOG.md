@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/DerYeger/noted/compare/v1.17.1...v1.17.2) (2021-09-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to v3.18.0 ([765fec3](https://github.com/DerYeger/noted/commit/765fec3b2218d7dc5a45751a32f8a0bd4d5a5fe5))
+
 ## [1.17.1](https://github.com/DerYeger/noted/compare/v1.17.0...v1.17.1) (2021-09-22)
 
 
