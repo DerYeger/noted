@@ -18,9 +18,10 @@ export default defineComponent({
 <style scoped>
 input[type='checkbox'] {
   all: unset;
-  background: var(--color-darken-1);
+  background: var(--color-darken-3);
   border-radius: var(--border-radius-medium);
   box-shadow: var(--shadow-depressed);
+  cursor: pointer;
   transition: background var(--anim-medium) ease;
 }
 
