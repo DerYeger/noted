@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/DerYeger/noted/compare/v1.19.2...v1.19.3) (2021-09-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vuex-persistedstate to v4.1.0 ([bbbf375](https://github.com/DerYeger/noted/commit/bbbf375279cec4dfb3aa56b6149ac53eb0e72c6d))
+
 ## [1.19.2](https://github.com/DerYeger/noted/compare/v1.19.1...v1.19.2) (2021-09-23)
 
 
