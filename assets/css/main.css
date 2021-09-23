@@ -76,3 +76,22 @@ a {
 .material-design-icon__svg {
   bottom: 0 !important;
 }
+
+input,
+select {
+  all: unset;
+  background: var(--background-concave);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--shadow-depressed);
+  min-width: 4rem;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+select {
+  cursor: pointer;
+  text-align: center;
+}
+
+select option {
+  background: var(--color-background);
+}

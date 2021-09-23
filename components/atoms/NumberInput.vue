@@ -21,10 +21,6 @@ export default defineComponent({
 
 <style>
 input[type='number'] {
-  all: unset;
-  border-radius: var(--border-radius-large);
-  box-shadow: var(--shadow-depressed);
-  padding: 0.5em 1em 0.5em 1em;
   -moz-appearance: textfield;
 }
 

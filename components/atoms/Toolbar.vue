@@ -1,6 +1,6 @@
 <template>
   <div class="toolbar__container">
-    <div class="toolbar">
+    <div class="toolbar text--small">
       <slot />
     </div>
   </div>

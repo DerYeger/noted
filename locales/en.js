@@ -3,6 +3,7 @@ export default {
     close: 'Close',
     delete: 'Delete',
     download: 'Download',
+    new: 'New',
     open: 'Open',
     'toggle-menu': 'Toggle menu',
   },

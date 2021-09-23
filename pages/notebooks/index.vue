@@ -1,9 +1,15 @@
 <template>
-  <div class="pa-4">
+  <div class="my-4">
     <Toolbar class="mb-4">
-      <Button color="secondary" @click="createNotebook">New</Button>
+      <Button color="secondary" @click="createNotebook">
+        {{ $t('actions.new') }}
+      </Button>
     </Toolbar>
-    <NotebookWall :notebooks="notebooks" @delete="deleteNotebook" />
+    <NotebookWall
+      class="ma-4"
+      :notebooks="notebooks"
+      @delete="deleteNotebook"
+    />
   </div>
 </template>
 

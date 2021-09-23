@@ -18,3 +18,7 @@ textarea::placeholder,
   color: var(--color-lighten-4);
   font-style: italic;
 }
+
+.text--small {
+  font-size: var(--fs-small);
+}

@@ -2,7 +2,7 @@
   <button
     :style="{ '--button-color': colorVar }"
     class="darken-on-focus unselectable"
-    :class="{ small }"
+    :class="{ 'text--small': small }"
     @click="$emit('click')"
   >
     <slot />
@@ -45,11 +45,5 @@ button {
   min-width: max(4em, -moz-fit-content);
   min-width: max(4em, fit-content);
   padding: 0.5em 1em;
-}
-
-button.small,
-.card__actions button,
-.toolbar button {
-  font-size: var(--fs-small);
 }
 </style>
