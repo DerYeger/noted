@@ -28,7 +28,7 @@
     "@nuxtjs/sitemap": "2.4.0",
     "@yeger/vue2-masonry-wall": "1.1.6",
     "core-js": "3.18.0",
-    "dompurify": "^2.3.3",
+    "dompurify": "2.3.3",
     "indent-textarea": "2.1.0",
     "jszip": "3.7.1",
     "marked": "3.0.4",
