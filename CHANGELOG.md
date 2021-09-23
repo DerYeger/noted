@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/DerYeger/noted/compare/v1.19.1...v1.19.2) (2021-09-23)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency dompurify to 2.3.3 ([d4f965c](https://github.com/DerYeger/noted/commit/d4f965cd553a5c5fb725c141b22f5c5b5f29d9bc))
+
 ## [1.19.1](https://github.com/DerYeger/noted/compare/v1.19.0...v1.19.1) (2021-09-22)
 
 
