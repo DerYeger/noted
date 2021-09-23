@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/DerYeger/noted/compare/v1.19.3...v1.20.0) (2021-09-23)
+
+
+### Features
+
+* **design:** reduce css duplication ([da2470d](https://github.com/DerYeger/noted/commit/da2470d5d5237663a15d48592596d2b87c72678d))
+
 ## [1.19.3](https://github.com/DerYeger/noted/compare/v1.19.2...v1.19.3) (2021-09-23)
 
 
