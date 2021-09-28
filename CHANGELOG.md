@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/DerYeger/noted/compare/v1.20.1...v1.20.2) (2021-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to v3.18.1 ([c58da36](https://github.com/DerYeger/noted/commit/c58da360314dc757165ade3337647fa6979cbf3c))
+
 ## [1.20.1](https://github.com/DerYeger/noted/compare/v1.20.0...v1.20.1) (2021-09-28)
 
 
