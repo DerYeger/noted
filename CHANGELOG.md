@@ -1,3 +1,10 @@
+## [1.20.3](https://github.com/DerYeger/noted/compare/v1.20.2...v1.20.3) (2021-09-29)
+
+
+### Bug Fixes
+
+* **deps:** update `@yeger/vue2-masonry-wall` to v2.0.0 ([dd94dac](https://github.com/DerYeger/noted/commit/dd94dace14da3a689a8fd9ad1f95d55cf1eba914))
+
 ## [1.20.2](https://github.com/DerYeger/noted/compare/v1.20.1...v1.20.2) (2021-09-28)
 
 
