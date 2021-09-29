@@ -4,16 +4,24 @@ module.exports = {
     browser: true,
     node: true,
   },
+  plugins: ['@typescript-eslint', 'import', 'prettier'],
   extends: [
     '@nuxtjs/eslint-config-typescript',
     'prettier',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
-    'plugin:vue/base',
+    'plugin:vue/recommended',
   ],
-  plugins: ['import', 'prettier'],
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    ecmaVersion: 2020,
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
+  },
   rules: {
     'import/no-unresolved': 'error',
+    'vue/max-attributes-per-line': 'off',
+    'vue/html-self-closing': 'off',
   },
   settings: {
     'import/parsers': {

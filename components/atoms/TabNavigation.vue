@@ -8,7 +8,9 @@
         @click="$emit('input', tab.id)"
         @contextmenu.prevent="$emit('menu', tab.id)"
       >
-        <Button small>{{ tab.title }}</Button>
+        <Button small>
+          {{ tab.title }}
+        </Button>
       </li>
       <li @click="$emit('add')">
         <Button small>

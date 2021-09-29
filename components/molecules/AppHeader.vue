@@ -1,7 +1,9 @@
 <template>
   <header class="app__header">
     <slot />
-    <h1 class="unselectable">{{ $t('app.title') }}</h1>
+    <h1 class="unselectable">
+      {{ $t('app.title') }}
+    </h1>
   </header>
 </template>
 
