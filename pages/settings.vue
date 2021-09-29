@@ -3,7 +3,7 @@
     v-slot="{ item }"
     :items="components"
     :column-width="400"
-    :padding="16"
+    :gap="16"
     class="pa-4"
   >
     <component :is="item.name" v-bind="item.props" />
