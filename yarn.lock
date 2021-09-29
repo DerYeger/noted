@@ -3236,10 +3236,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/dompurify@2.2.3":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-2.2.3.tgz#6e89677a07902ac1b6821c345f34bd85da239b08"
-  integrity sha512-CLtc2mZK8+axmrz1JqtpklO/Kvn38arGc8o1l3UVopZaXXuer9ONdZwJ/9f226GrhRLtUmLr9WrvZsRSNpS8og==
+"@types/dompurify@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-2.3.0.tgz#66723d311da7a83405c8279874b753af2041a577"
+  integrity sha512-fBpdyrPm4bJYFTmDEyYp23OaEOxLcARra0cKS3HqaPhhvfAm6T66njkMufl462hvCh/YQ6aXWBVRd32Y05iIfw==
   dependencies:
     "@types/trusted-types" "*"
 
