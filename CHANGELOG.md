@@ -1,3 +1,10 @@
+## [1.20.4](https://github.com/DerYeger/noted/compare/v1.20.3...v1.20.4) (2021-10-01)
+
+
+### Bug Fixes
+
+* **style:** improve sidebar behavior on mobile devices ([8b6416b](https://github.com/DerYeger/noted/commit/8b6416b3bf4f768099fff38c71ecdb4ebade9307))
+
 ## [1.20.3](https://github.com/DerYeger/noted/compare/v1.20.2...v1.20.3) (2021-09-29)
 
 
