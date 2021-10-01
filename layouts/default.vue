@@ -57,6 +57,7 @@ export default defineComponent({
 .app__content {
   display: flex;
   flex-grow: 1;
+  overflow-x: hidden;
   overflow-y: auto;
   width: 100%;
 }
@@ -73,15 +74,9 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
-  .sidebar-open {
-    overflow-x: hidden;
-  }
-
   .sidebar-open main {
-    position: absolute;
+    flex-basis: 0;
     transform: translateX(100%);
-    inset: 0;
-    width: 0;
   }
 }
 
