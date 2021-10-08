@@ -1,3 +1,10 @@
+## [1.20.7](https://github.com/DerYeger/noted/compare/v1.20.6...v1.20.7) (2021-10-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency marked to v3.0.7 ([1d57fe6](https://github.com/DerYeger/noted/commit/1d57fe6318b241a1d051e98224a97a7a6decd181))
+
 ## [1.20.6](https://github.com/DerYeger/noted/compare/v1.20.5...v1.20.6) (2021-10-08)
 
 
