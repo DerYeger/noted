@@ -4,6 +4,11 @@
     <h1 class="unselectable">
       {{ $t('app.title') }}
     </h1>
+    <Spacer />
+    <Logo
+      size="2rem"
+      :style="{ marginTop: '-0.25rem', marginBottom: '-0.25rem' }"
+    />
   </header>
 </template>
 

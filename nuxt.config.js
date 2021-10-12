@@ -11,6 +11,13 @@ export default {
       return titleChunk ? `Noted | ${titleChunk}` : 'Noted'
     },
     title: undefined,
+    link: [
+      {
+        href: '/apple-touch-icon.png',
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -102,15 +109,18 @@ export default {
       background_color: app.theme.primaryColor,
     },
     meta: {
+      favicon: false,
       name: app.name,
-      ogImage: `${app.host}/og-logo.png`,
+      ogImage: `${app.host}/icon-maskable-themed.png`,
       ogHost: app.host,
       theme_color: app.theme.primaryColor,
       twitterCard: 'summary_large_image',
       twitterCreator: '@DerYeger',
       twitterSite: '@DerYeger',
     },
-    icon: {},
+    icon: {
+      fileName: 'icon-maskable.png',
+    },
   },
 
   sitemap: {

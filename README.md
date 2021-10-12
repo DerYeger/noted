@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/icon.png" alt="Logo" width="48px" height="48px">
+  <img src="static/logo.png" alt="Logo" width="64px" height="64px">
 </p>
 
 <h1 align="center">Noted</h1>
