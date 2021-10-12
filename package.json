@@ -32,7 +32,7 @@
     "indent-textarea": "2.1.0",
     "jszip": "3.7.1",
     "marked": "3.0.7",
-    "nuxt": "2.15.8",
+    "nuxt-edge": "latest",
     "prism-theme-vars": "0.2.2",
     "prismjs": "1.25.0",
     "splitpanes": "2.3.8",
