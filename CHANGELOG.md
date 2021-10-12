@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/DerYeger/noted/compare/v1.20.8...v1.21.0) (2021-10-12)
+
+
+### Features
+
+* add custom logo ([0a5bf75](https://github.com/DerYeger/noted/commit/0a5bf75ec9aeaa888f1c32175f187555ab5ca81e))
+
 ## [1.20.8](https://github.com/DerYeger/noted/compare/v1.20.7...v1.20.8) (2021-10-12)
 
 
