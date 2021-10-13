@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/DerYeger/noted/compare/v1.21.2...v1.22.0) (2021-10-13)
+
+
+### Features
+
+* **settings:** add button for clearing user data ([a517770](https://github.com/DerYeger/noted/commit/a517770ad3cc93d944aec2d37e7e4b369784f686))
+
 ## [1.21.2](https://github.com/DerYeger/noted/compare/v1.21.1...v1.21.2) (2021-10-13)
 
 
