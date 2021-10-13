@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/DerYeger/noted/compare/v1.21.1...v1.21.2) (2021-10-13)
+
+
+### Bug Fixes
+
+* **checkbox:** set missing `checked` prop ([6f1da23](https://github.com/DerYeger/noted/commit/6f1da23f0e8e4e2062cafaab496c50d97dd6175e))
+
 ## [1.21.1](https://github.com/DerYeger/noted/compare/v1.21.0...v1.21.1) (2021-10-13)
 
 
