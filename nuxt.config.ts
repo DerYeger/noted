@@ -3,6 +3,10 @@ import app from './app.config'
 import i18n from './locales/i18n'
 
 export default defineNuxtConfig({
+  bridge: {
+    vite: true,
+  },
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
