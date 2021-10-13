@@ -48,6 +48,7 @@ export default {
       title: 'Appearance',
     },
     general: {
+      'clear-data': 'Clear data',
       sanitize: 'Sanitize input',
       title: 'General',
     },

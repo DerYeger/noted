@@ -9,6 +9,9 @@
           </label>
           <SanitizeCheckbox id="sanitize" />
         </li>
+        <li>
+          <ClearDataButton />
+        </li>
       </ul>
     </CardContent>
   </Card>
