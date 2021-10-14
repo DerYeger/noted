@@ -1,5 +1,5 @@
 <template>
-  <Button color="warn" @click="clearData">
+  <Button color="warn" small @click="clearData">
     {{ $t('settings.general.clear-data') }}
   </Button>
 </template>
