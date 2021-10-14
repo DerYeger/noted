@@ -1,4 +1,5 @@
 :root {
+  --anim-long: 1s;
   --anim-medium: 0.25s;
   --anim-short: 0.1s;
   --background-concave: linear-gradient(

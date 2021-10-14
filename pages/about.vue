@@ -1,14 +1,16 @@
 <template>
   <div class="about">
     <header>
-      <Logo height="5rem" />
+      <Logo class="about__logo" height="5rem" />
       <h1>{{ $t('about.title') }}</h1>
       <h2 class="text--secondary">
         {{ $t('about.subtitle') }}
       </h2>
     </header>
-    <main>
+    <aside>
       <RenderView class="sample-render" :input="sample" />
+    </aside>
+    <main>
       <MasonryWall
         v-slot="{ item }"
         :column-width="300"
@@ -115,6 +117,24 @@ export default defineComponent({
   text-align: center;
 }
 
+.about__logo {
+  animation: grow var(--anim-long);
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+
+  35% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .about main {
   align-items: center;
   display: flex;
@@ -122,6 +142,12 @@ export default defineComponent({
   gap: 3rem;
   justify-content: center;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .about main {
+    flex-direction: column-reverse;
+  }
 }
 
 .about main .masonry-wall {
