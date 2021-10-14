@@ -155,6 +155,13 @@ export default defineComponent({
   align-items: center;
   display: inline-flex;
   gap: 0.25em;
+  text-decoration: underline;
+  transition: color var(--anim-medium) ease;
+}
+
+.about footer a:focus-visible,
+.about footer a:hover {
+  color: var(--text-primary);
 }
 
 .about footer *:not(:last-child)::after {
