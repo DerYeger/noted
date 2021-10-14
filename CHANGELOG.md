@@ -1,3 +1,17 @@
+# [1.23.0](https://github.com/DerYeger/noted/compare/v1.22.0...v1.23.0) (2021-10-14)
+
+
+### Bug Fixes
+
+* **about:** add hover effect to source link ([ae85995](https://github.com/DerYeger/noted/commit/ae85995810afa5f9199a395a0150d79d48103306))
+* **settings:** make button for clearing data smaller ([842a4e0](https://github.com/DerYeger/noted/commit/842a4e0768ab36ac5c51e7366b967b6719fe9796))
+
+
+### Features
+
+* **about:** add page ([2327b22](https://github.com/DerYeger/noted/commit/2327b22a596a02da64f61bc3dd131472e5276288))
+* **about:** improve layout ([f7b2670](https://github.com/DerYeger/noted/commit/f7b2670d7bfa65858db211bcffa68bc7caee4c60))
+
 # [1.22.0](https://github.com/DerYeger/noted/compare/v1.21.2...v1.22.0) (2021-10-13)
 
 
