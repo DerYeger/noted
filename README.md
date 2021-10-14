@@ -37,8 +37,8 @@
 - 📚 Organize notes in **sections** and **notebooks**
 - 💾 **Download** entire notebooks as `zip` files
 - 📱 Supports all devices with **responsive** design
-- 🌓 **Dark** and **light** themes
-- ⚙️ Works **offline** as installable **PWA**
+- 🌓 Dark and light **themes**
+- ⚙️ Works offline as installable **PWA**
 
 ## Development
 

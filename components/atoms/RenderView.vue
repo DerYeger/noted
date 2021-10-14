@@ -13,11 +13,15 @@ export default defineComponent({
       type: String,
       required: true,
     },
+    sanitize: {
+      type: Boolean,
+      default: false,
+    },
   },
   computed: {
     htmlOutput(): string {
       const parsed = this.$md(this.input)
-      if (this.$store.getters['settings/sanitize']) {
+      if (this.sanitize) {
         return DOMPurify.sanitize(parsed)
       }
       return parsed

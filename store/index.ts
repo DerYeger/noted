@@ -12,7 +12,7 @@ export const actions = {
     dispatch('notebooks/reset')
     dispatch('settings/reset')
   },
-  createNotebook({ commit }: Context, name: string) {
+  createNotebook({ commit }: Context, name: string): Notebook {
     const notebookId = uuid()
     const sectionId = uuid()
     const notebook: Notebook = {
@@ -29,5 +29,6 @@ export const actions = {
     }
     commit('notebooks/add', notebook)
     commit('sections/add', section)
+    return notebook
   },
 }

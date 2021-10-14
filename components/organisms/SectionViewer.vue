@@ -4,7 +4,7 @@
       <Editor v-model="content" />
     </pane>
     <pane class="pane" :min-size="0">
-      <RenderView :input="content" />
+      <RenderView :input="content" :sanitize="sanitize" />
     </pane>
   </splitpanes>
 </template>
@@ -38,6 +38,9 @@ export default defineComponent({
         })
         this.$store.commit('notebooks/updateLastEdit', this.section.notebookId)
       },
+    },
+    sanitize(): boolean {
+      return this.$store.getters['settings/sanitize']
     },
   },
 })

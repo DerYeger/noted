@@ -5,7 +5,7 @@
       {{ $t('app.title') }}
     </h1>
     <Spacer />
-    <Logo
+    <LogoLink
       size="2rem"
       :style="{ marginTop: '-0.25rem', marginBottom: '-0.25rem' }"
     />

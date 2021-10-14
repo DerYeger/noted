@@ -30,6 +30,13 @@ export const routes: Record<string, Route> = {
     subRoute: false,
     dynamic: false,
   },
+  about: {
+    title: 'routes.about',
+    path: '/about',
+    external: false,
+    subRoute: false,
+    dynamic: false,
+  },
   source: {
     title: 'routes.source',
     path: 'https://github.com/DerYeger/noted',
