@@ -19,10 +19,6 @@ body {
   transition: background var(--anim-medium) ease, color var(--anim-medium) ease;
 }
 
-*:not(:is(pre *, code *)) {
-  font-family: 'Roboto', sans-serif;
-}
-
 .splitpanes__splitter {
   background: var(--color-lighten-2);
   border-radius: var(--border-radius-large) 0 0 0;
