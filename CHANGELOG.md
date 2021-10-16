@@ -1,3 +1,10 @@
+## [1.23.2](https://github.com/DerYeger/noted/compare/v1.23.1...v1.23.2) (2021-10-16)
+
+
+### Bug Fixes
+
+* use correct font for `.token` elements ([f4655d8](https://github.com/DerYeger/noted/commit/f4655d8620d11346d4e29a3209abb5a96dbfd8a1))
+
 ## [1.23.1](https://github.com/DerYeger/noted/compare/v1.23.0...v1.23.1) (2021-10-15)
 
 
