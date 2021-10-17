@@ -34,7 +34,7 @@ export const routes: Record<string, Route> = {
     title: 'routes.about',
     path: '/about',
     external: false,
-    subRoute: false,
+    subRoute: true,
     dynamic: false,
   },
   source: {

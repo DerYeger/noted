@@ -33,6 +33,7 @@ export default defineComponent({
         routes.notebooks,
         ...recentNotebookRoutes,
         routes.settings,
+        routes.about,
         routes.source,
       ]
     },
