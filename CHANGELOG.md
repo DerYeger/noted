@@ -1,3 +1,19 @@
+# [1.24.0](https://github.com/DerYeger/noted/compare/v1.23.2...v1.24.0) (2021-10-17)
+
+
+### Bug Fixes
+
+* **design:** use accent color for links ([fdd1683](https://github.com/DerYeger/noted/commit/fdd168347ebe16ed4eefd4687f701ddf0997fb0d))
+* **design:** use correct font for inline code ([bf1b88a](https://github.com/DerYeger/noted/commit/bf1b88ae6d350c586712a662e558ae346f8950a1)), closes [#9](https://github.com/DerYeger/noted/issues/9)
+* **layout:** prevent sidebar from shrinking too much ([9a2bbbd](https://github.com/DerYeger/noted/commit/9a2bbbd246cbf8e9824a8718f84cf90315f4a7f2))
+* use correct type for `demoNotebookContent` ([bf051c9](https://github.com/DerYeger/noted/commit/bf051c9ed5e29d8b79f8a10c9fd0cb75d613d3db))
+
+
+### Features
+
+* add content to demo notebook ([c61453b](https://github.com/DerYeger/noted/commit/c61453b408bb876b51d1ab3041485112264f26d1))
+* **navigation:** include link to about page ([ef7f834](https://github.com/DerYeger/noted/commit/ef7f8346a51b45e861b56fdd048b08fb1313da95))
+
 ## [1.23.2](https://github.com/DerYeger/noted/compare/v1.23.1...v1.23.2) (2021-10-16)
 
 
