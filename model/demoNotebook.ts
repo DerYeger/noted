@@ -1,4 +1,4 @@
-export const demoNotebookContent: String =
+export const demoNotebookContent: string =
   '![Noted logo](https://noted.yeger.eu/icon-maskable-transparent.png)\n' +
   '\n' +
   '# Welcome to Noted\n' +
