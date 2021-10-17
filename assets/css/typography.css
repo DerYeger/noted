@@ -1,4 +1,4 @@
-*:not(:is(pre *, code *, .token)) {
+*:not(:is(pre, code, .token)) {
   font-family: 'Roboto', sans-serif;
 }
 
