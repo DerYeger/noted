@@ -37,6 +37,7 @@ export default defineComponent({
 }
 
 .app__sidebar.closed {
+  min-width: 0;
   overflow-x: hidden;
   padding-left: 0;
   padding-right: 0;
@@ -47,6 +48,13 @@ export default defineComponent({
 @media only screen and (max-width: 600px) {
   .app__sidebar {
     width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .app__sidebar {
+    min-width: fit-content;
+    min-width: -moz-fit-content;
   }
 }
 </style>

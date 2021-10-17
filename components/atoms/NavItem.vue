@@ -40,12 +40,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.nav_item {
-  display: inline-block;
-  list-style: none;
-  margin-top: 1rem;
-}
-
 .nav-item a {
   background: var(--background-concave);
   border-bottom-right-radius: var(--border-radius-xl);
@@ -55,8 +49,11 @@ export default defineComponent({
   justify-content: space-between;
   margin-left: -1rem;
   margin-top: 1rem;
+  overflow: hidden;
   padding: 0.75em 2rem 0.75em 2rem;
+  text-overflow: ellipsis;
   transition: background var(--anim-medium) ease;
+  white-space: nowrap;
 }
 
 .nav-item a:focus-visible,
@@ -84,5 +81,11 @@ export default defineComponent({
   font-size: var(--fs-small);
   position: absolute;
   right: 2rem;
+}
+
+@media only screen and (min-width: 601px) {
+  .nav-item {
+    max-width: 12rem;
+  }
 }
 </style>
