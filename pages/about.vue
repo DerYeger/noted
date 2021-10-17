@@ -48,6 +48,9 @@ import { defineComponent } from '@nuxtjs/composition-api'
 import { MetaInfo } from 'vue-meta'
 import { getNotebookPath, routes } from '~/model/routes'
 import { generateSocialTags } from '~/model/meta'
+import { Notebook } from '~/model/notebooks'
+import { Section } from '~/model/section'
+import { demoNotebookContent } from '~/model/demoNotebook'
 
 export default defineComponent({
   layout: 'empty',
@@ -84,10 +87,21 @@ export default defineComponent({
   methods: {
     async completeAbout() {
       this.$store.commit('settings/setShowAbout', false)
-      const notebook = await this.$store.dispatch(
+
+      if (this.$store.getters['notebooks/all'].length > 0) {
+        await this.$router.push(this.localePath(routes.notebooks))
+        return
+      }
+
+      const notebook: Notebook = await this.$store.dispatch(
         'createNotebook',
         this.$t('editor.notebooks.new')
       )
+      const section: Section = this.$store.getters['sections/byId'](
+        notebook.sectionIds[0]
+      )
+      const newSection: Section = { ...section, content: demoNotebookContent }
+      this.$store.commit('sections/add', newSection)
       await this.$router.push(this.localePath(getNotebookPath(notebook)))
     },
   },
