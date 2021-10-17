@@ -12,8 +12,14 @@ p {
 }
 
 a {
-  color: var(--text-primary);
+  color: var(--color-accent);
   text-decoration: none;
+  transition: color var(--anim-medium) ease;
+}
+
+a:focus-visible,
+a:hover {
+  color: var(--color-accent-dark);
 }
 
 input::placeholder,

@@ -33,11 +33,11 @@
 }
 
 .logo__secondary {
-  fill: #008f54;
+  fill: var(--color-accent-dark);
 }
 
 .logo__main {
-  fill: #00dc82;
+  fill: var(--color-accent);
 }
 
 rect {

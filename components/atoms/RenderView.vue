@@ -40,4 +40,8 @@ export default defineComponent({
 .render-view > *:first-child {
   margin-top: 0;
 }
+
+.render-view a {
+  text-decoration: underline;
+}
 </style>
