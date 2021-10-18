@@ -1,4 +1,6 @@
 # Ignore artifacts
+.nuxt
+.output
 coverage
 dist
 node_modules

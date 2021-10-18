@@ -3,7 +3,7 @@ import app from './app.config'
 import i18n from './locales/i18n'
 
 export default defineNuxtConfig({
-  bridge: false,
+  bridge: {},
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -46,12 +46,8 @@ export default defineNuxtConfig({
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    // https://composition-api.nuxtjs.org/
-    '@nuxtjs/composition-api/module',
     // https://color-mode.nuxtjs.org/
     '@nuxtjs/color-mode',
     // https://github.com/ivodolenc/nuxt-font-loader

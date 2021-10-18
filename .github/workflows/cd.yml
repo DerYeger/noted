@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: static-site-artifact
-          path: ./dist
+          path: ./.output/public
           if-no-files-found: error
   upload-assets:
     name: Upload assets
@@ -34,11 +34,11 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: static-site-artifact
-          path: ./dist
+          path: ./.output/public
       - name: Zip files
         uses: montudor/action-zip@v1.0.0
         with:
-          args: zip -qq -r ./noted.zip ./dist/
+          args: zip -qq -r ./noted.zip ../.output/public
       - name: Release assets
         uses: softprops/action-gh-release@v1
         with:
@@ -56,14 +56,14 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: static-site-artifact
-          path: ./dist
+          path: ./.output/public
       - name: Create 404.html file
-        run: cp ./dist/200.html ./dist/404.html
+        run: cp ./.output/public/200.html ./.output/public/404.html
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages
-          folder: ./dist
+          folder: ./.output/public
           clean: true
           git-config-name: Jan Müller
           git-config-email: janmueller3698@gmail.com
