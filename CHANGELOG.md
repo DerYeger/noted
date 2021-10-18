@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/DerYeger/noted/compare/v1.24.0...v1.25.0) (2021-10-18)
+
+
+### Features
+
+* **meta:** update description ([d85dd45](https://github.com/DerYeger/noted/commit/d85dd45819ed04e9ee8db2905b74ba8fec162376))
+
 # [1.24.0](https://github.com/DerYeger/noted/compare/v1.23.2...v1.24.0) (2021-10-17)
 
 
