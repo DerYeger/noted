@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Real-time note-taking with syntax highlighting.
+  Markdown note-taking with syntax highlighting and real-time preview.
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@
 
 ## Features
 
-- ✏️ **Note-taking** in markdown format with **real-time** preview
+- ✏️ **Note-taking** in Markdown format with **real-time** preview
 - 🖥 **Syntax highlighting** based on [PrismJS](https://github.com/PrismJS/prism)
 - 📚 Organize notes in **sections** and **notebooks**
 - 💾 **Download** entire notebooks as `zip` files

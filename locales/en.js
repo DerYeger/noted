@@ -16,7 +16,8 @@ export default {
     license: 'MIT License',
     sample:
       '```ts\nexport function helloWorld(): void {\n\tconsole.log("Welcome to Noted!")\n}\n```',
-    subtitle: 'Real-time note-taking with syntax highlighting.',
+    subtitle:
+      'Markdown note-taking with syntax highlighting and real-time preview.',
     title: 'Welcome to Noted!',
   },
   actions: {
@@ -53,7 +54,8 @@ export default {
     },
   },
   meta: {
-    description: 'Real-time note-taking with syntax highlighting.',
+    description:
+      'Markdown note-taking with syntax highlighting and real-time preview.',
   },
   routes: {
     about: 'About',

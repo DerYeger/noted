@@ -4,7 +4,7 @@ export const demoNotebookContent: string =
   '# Welcome to Noted\n' +
   '\n' +
   'This is your first notebook!\n' +
-  "If you are not familiar with the *markdown* format, take a look at [GitHub's guide](https://guides.github.com/features/mastering-markdown/).\n" +
+  "If you are not familiar with the *Markdown* format, take a look at [GitHub's guide](https://guides.github.com/features/mastering-markdown/).\n" +
   '\n' +
   '\n' +
   '## Syntax highlighting\n' +

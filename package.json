@@ -1,7 +1,7 @@
 {
   "name": "noted",
   "version": "1.24.0",
-  "description": "Real-time note-taking with syntax highlighting.",
+  "description": "Markdown note-taking with syntax highlighting and real-time preview.",
   "private": true,
   "scripts": {
     "dev": "nuxt",
