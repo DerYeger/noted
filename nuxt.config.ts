@@ -1,7 +1,10 @@
+import { defineNuxtConfig } from '@nuxt/bridge'
 import app from './app.config'
 import i18n from './locales/i18n'
 
-export default {
+export default defineNuxtConfig({
+  bridge: false,
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -129,4 +132,4 @@ export default {
     i18n: true,
     trailingSlash: true,
   },
-}
+})
