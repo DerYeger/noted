@@ -1,7 +1,7 @@
 {
   "name": "Noted",
   "short_name": "Noted",
-  "description": "Real-time note-taking with syntax highlighting.",
+  "description": "Markdown note-taking with syntax highlighting and real-time preview.",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.7a5b64.png",
