@@ -16906,10 +16906,10 @@ ts-map@^1.0.3:
   resolved "https://registry.yarnpkg.com/ts-map/-/ts-map-1.0.3.tgz#1c4d218dec813d2103b7e04e4bcf348e1471c1ff"
   integrity sha512-vDWbsl26LIcPGmDpoVzjEP6+hvHZkBkLW7JpvwbCv/5IYPJlsbzCVXY3wsCeAxAUeTclNOUZxnLdGh3VBD/J6w==
 
-ts-node@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.3.0.tgz#a797f2ed3ff50c9a5d814ce400437cb0c1c048b4"
-  integrity sha512-RYIy3i8IgpFH45AX4fQHExrT8BxDeKTdC83QFJkNzkvt8uFB6QJ8XMyhynYiKMLxt9a7yuXaDBZNOYS3XjDcYw==
+ts-node@10.3.1:
+  version "10.3.1"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.3.1.tgz#739b42839b56d1a3c85026994af7045b2fccc6f5"
+  integrity sha512-Yw3W2mYzhHfCHOICGNJqa0i+rbL0rAyg7ZIHxU+K4pgY8gd2Lh1j+XbHCusJMykbj6RZMJVOY0MlHVd+GOivcw==
   dependencies:
     "@cspotcode/source-map-support" "0.7.0"
     "@tsconfig/node10" "^1.0.7"
