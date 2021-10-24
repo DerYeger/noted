@@ -1,3 +1,10 @@
+## [1.25.2](https://github.com/DerYeger/noted/compare/v1.25.1...v1.25.2) (2021-10-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/i18n to v7.1.0 ([c24e83d](https://github.com/DerYeger/noted/commit/c24e83d3fae3d6b77e0e7490f942494fe19a24d9))
+
 ## [1.25.1](https://github.com/DerYeger/noted/compare/v1.25.0...v1.25.1) (2021-10-24)
 
 
