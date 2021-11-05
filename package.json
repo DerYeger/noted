@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@nuxtjs/composition-api": "0.29.3",
-    "@nuxtjs/i18n": "7.1.0",
+    "@nuxtjs/i18n": "7.2.0",
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/sitemap": "2.4.0",
     "@yeger/vue2-masonry-wall": "2.0.4",
