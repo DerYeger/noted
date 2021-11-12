@@ -50,7 +50,7 @@ export default defineComponent({
   margin-left: -1rem;
   margin-top: 1rem;
   overflow: hidden;
-  padding: 0.75em 2rem 0.75em 2rem;
+  padding: 0.75em 2rem;
   text-overflow: ellipsis;
   transition: background var(--anim-medium) ease;
   white-space: nowrap;
