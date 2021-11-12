@@ -22,6 +22,7 @@ module.exports = {
     'import/no-unresolved': 'error',
     'vue/max-attributes-per-line': 'off',
     'vue/html-self-closing': 'off',
+    'vue/multi-word-component-names': 'off',
   },
   settings: {
     'import/parsers': {
