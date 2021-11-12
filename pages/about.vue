@@ -116,7 +116,7 @@ export default defineComponent({
   flex-grow: 1;
   gap: 3rem;
   justify-content: space-between;
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 2rem 2rem 1rem;
 }
 
 .about header {

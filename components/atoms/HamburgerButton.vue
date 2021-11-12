@@ -4,9 +4,9 @@
     :class="{ hamburger__active: value }"
     @click="$emit('input', !value)"
   >
-    <div class="hamburger__top"></div>
-    <div class="hamburger__middle"></div>
-    <div class="hamburger__bottom"></div>
+    <div class="hamburger__top" />
+    <div class="hamburger__middle" />
+    <div class="hamburger__bottom" />
   </button>
 </template>
 
@@ -60,7 +60,7 @@ export default defineComponent({
 }
 
 .hamburger__active .hamburger__middle {
-  opacity: 0;
+  opacity: 0%;
   transform: scale(0, 1);
 }
 
