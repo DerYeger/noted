@@ -1,4 +1,4 @@
-import * as Marked from 'marked'
+import { marked } from 'marked'
 import * as Prism from 'prismjs'
 import { Context } from '@nuxt/types'
 import { Inject } from '@nuxt/types/app'
@@ -29,7 +29,7 @@ import 'prismjs/components/prism-sql'
 import 'prismjs/components/prism-typescript'
 import 'prismjs/components/prism-yaml'
 
-Marked.setOptions({
+marked.setOptions({
   highlight: (code, lang) => {
     if (Prism.languages[lang]) {
       return Prism.highlight(code, Prism.languages[lang], lang)
@@ -40,20 +40,20 @@ Marked.setOptions({
 })
 
 export default (_: Context, inject: Inject) => {
-  inject('md', Marked.parse)
+  inject('md', marked.parse)
 }
 
 declare module 'vue/types/vue' {
   interface Vue {
-    $md: typeof Marked.parse
+    $md: typeof marked.parse
   }
 }
 
 declare module '@nuxt/types' {
   interface NuxtAppOptions {
-    $md: typeof Marked.parse
+    $md: typeof marked.parse
   }
   interface Context {
-    $md: typeof Marked.parse
+    $md: typeof marked.parse
   }
 }
