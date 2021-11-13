@@ -1,3 +1,10 @@
+## [1.25.12](https://github.com/DerYeger/noted/compare/v1.25.11...v1.25.12) (2021-11-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency marked to v4.0.2 ([22d6a07](https://github.com/DerYeger/noted/commit/22d6a0700c9ce3f21b9dc53b05ebaa0015530875))
+
 ## [1.25.11](https://github.com/DerYeger/noted/compare/v1.25.10...v1.25.11) (2021-11-13)
 
 
