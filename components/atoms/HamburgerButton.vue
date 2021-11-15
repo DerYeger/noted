@@ -60,7 +60,7 @@ export default defineComponent({
 }
 
 .hamburger__active .hamburger__middle {
-  opacity: 0%;
+  opacity: 0;
   transform: scale(0, 1);
 }
 
