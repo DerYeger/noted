@@ -54,7 +54,7 @@
     "@nuxtjs/eslint-config-typescript": "8.0.0",
     "@nuxtjs/eslint-module": "3.0.2",
     "@nuxtjs/storybook": "4.2.0",
-    "@nuxtjs/stylelint-module": "4.0.0",
+    "@nuxtjs/stylelint-module": "4.1.0",
     "@types/dompurify": "2.3.1",
     "@types/marked": "4.0.1",
     "@types/prismjs": "1.16.6",
