@@ -1,3 +1,10 @@
+## [1.25.23](https://github.com/DerYeger/noted/compare/v1.25.22...v1.25.23) (2021-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to v3.19.3 ([0031a19](https://github.com/DerYeger/noted/commit/0031a191a20b24f16b446d6ed6e406734f75b1f7))
+
 ## [1.25.22](https://github.com/DerYeger/noted/compare/v1.25.21...v1.25.22) (2021-12-07)
 
 
