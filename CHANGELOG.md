@@ -1,3 +1,10 @@
+## [1.25.24](https://github.com/DerYeger/noted/compare/v1.25.23...v1.25.24) (2021-12-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency dompurify to v2.3.4 ([31cb0f5](https://github.com/DerYeger/noted/commit/31cb0f5891d267a55425d35e5a4d1e89d9171956))
+
 ## [1.25.23](https://github.com/DerYeger/noted/compare/v1.25.22...v1.25.23) (2021-12-07)
 
 
