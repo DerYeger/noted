@@ -1,3 +1,10 @@
+## [1.25.28](https://github.com/DerYeger/noted/compare/v1.25.27...v1.25.28) (2021-12-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency marked to v4.0.8 ([1cf5c79](https://github.com/DerYeger/noted/commit/1cf5c79262c05f6c6f3f54664af174e92fd52fbb))
+
 ## [1.25.27](https://github.com/DerYeger/noted/compare/v1.25.26...v1.25.27) (2021-12-16)
 
 
