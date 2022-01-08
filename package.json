@@ -35,7 +35,7 @@
     "marked": "4.0.9",
     "nuxt-edge": "latest",
     "prism-theme-vars": "0.2.2",
-    "prismjs": "1.25.0",
+    "prismjs": "1.26.0",
     "splitpanes": "2.3.8",
     "uuid": "8.3.2",
     "vue": "2.6.14",
