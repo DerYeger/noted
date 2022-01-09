@@ -1,3 +1,10 @@
+## [1.25.35](https://github.com/DerYeger/noted/compare/v1.25.34...v1.25.35) (2022-01-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prismjs to v1.26.0 ([d1abdd1](https://github.com/DerYeger/noted/commit/d1abdd1a2376dc82bf2c13081f854031e7d4bb57))
+
 ## [1.25.34](https://github.com/DerYeger/noted/compare/v1.25.33...v1.25.34) (2022-01-08)
 
 
