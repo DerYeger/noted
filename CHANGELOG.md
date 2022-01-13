@@ -1,3 +1,10 @@
+## [1.25.36](https://github.com/DerYeger/noted/compare/v1.25.35...v1.25.36) (2022-01-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency marked to v4.0.10 ([13f2b71](https://github.com/DerYeger/noted/commit/13f2b71a7a2b16de31b4c04be921dad7ef1430a5))
+
 ## [1.25.35](https://github.com/DerYeger/noted/compare/v1.25.34...v1.25.35) (2022-01-09)
 
 
