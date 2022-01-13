@@ -55,7 +55,7 @@
     "@nuxtjs/eslint-module": "3.0.2",
     "@nuxtjs/storybook": "4.2.0",
     "@nuxtjs/stylelint-module": "4.1.0",
-    "@types/dompurify": "2.3.2",
+    "@types/dompurify": "2.3.3",
     "@types/marked": "4.0.1",
     "@types/prismjs": "1.16.6",
     "@types/uuid": "8.3.4",
