@@ -27,7 +27,7 @@
     "@nuxtjs/i18n": "7.2.0",
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/sitemap": "2.4.0",
-    "@yeger/vue2-masonry-wall": "2.0.13",
+    "@yeger/vue2-masonry-wall": "2.0.14",
     "core-js": "3.20.2",
     "dompurify": "2.3.4",
     "indent-textarea": "2.1.0",

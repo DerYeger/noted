@@ -4702,10 +4702,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@yeger/vue2-masonry-wall@2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@yeger/vue2-masonry-wall/-/vue2-masonry-wall-2.0.13.tgz#a442ecf41af4d3f80e655983ceaa56a8dcfb07ad"
-  integrity sha512-AkCfVsltF+zW/JaKc/fzrlv5RhMtFzBg3OGjDoDB++roeN9GVtFJyLDnDlvFkVG68xDiCyHK9NqiexSK27GNuA==
+"@yeger/vue2-masonry-wall@2.0.14":
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/@yeger/vue2-masonry-wall/-/vue2-masonry-wall-2.0.14.tgz#b371a71680f4dca433fd24fa34ebdfa5bf78997f"
+  integrity sha512-tDUDlRUnAgAY3sjX3o+rpAmppiFc5Eqetl2eQ5zIfmolh4gmsvec6CzW+5bWCB1a8FQl2IodOzJxfe1yMtMD9w==
 
 JSONStream@^1.0.4:
   version "1.3.5"
