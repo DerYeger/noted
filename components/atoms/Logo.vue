@@ -41,6 +41,6 @@
 }
 
 rect {
-  shape-rendering: crispEdges;
+  shape-rendering: crisp-edges;
 }
 </style>
