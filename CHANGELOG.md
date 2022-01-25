@@ -1,3 +1,10 @@
+## [1.25.40](https://github.com/DerYeger/noted/compare/v1.25.39...v1.25.40) (2022-01-25)
+
+
+### Bug Fixes
+
+* use valid css value ([98c7eaf](https://github.com/DerYeger/noted/commit/98c7eaf28a9410a5c951d5241a26bc7c92ffff9b))
+
 ## [1.25.39](https://github.com/DerYeger/noted/compare/v1.25.38...v1.25.39) (2022-01-23)
 
 
