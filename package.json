@@ -44,7 +44,7 @@
     "vuex-persistedstate": "4.1.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.16.5",
+    "@babel/eslint-parser": "7.17.0",
     "@commitlint/cli": "16.1.0",
     "@commitlint/config-conventional": "16.0.0",
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
