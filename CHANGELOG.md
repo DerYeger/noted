@@ -1,3 +1,10 @@
+## [1.25.47](https://github.com/DerYeger/noted/compare/v1.25.46...v1.25.47) (2022-02-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to v3.21.1 ([584cacf](https://github.com/DerYeger/noted/commit/584cacfd7ea04e3b1c0451c739c5348488008f9e))
+
 ## [1.25.46](https://github.com/DerYeger/noted/compare/v1.25.45...v1.25.46) (2022-02-15)
 
 
