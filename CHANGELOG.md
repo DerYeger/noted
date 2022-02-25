@@ -1,3 +1,10 @@
+## [1.25.52](https://github.com/DerYeger/noted/compare/v1.25.51...v1.25.52) (2022-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency splitpanes to v2.4.1 ([48147e3](https://github.com/DerYeger/noted/commit/48147e3057f1a77c1d873b0769273f24b1a0c6be))
+
 ## [1.25.51](https://github.com/DerYeger/noted/compare/v1.25.50...v1.25.51) (2022-02-24)
 
 
