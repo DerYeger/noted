@@ -1,3 +1,10 @@
+## [1.25.53](https://github.com/DerYeger/noted/compare/v1.25.52...v1.25.53) (2022-03-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @yeger/vue2-masonry-wall to v2.0.20 ([0b4bab5](https://github.com/DerYeger/noted/commit/0b4bab5aea2d261c5b0233af7c4b4d66239fe9ad))
+
 ## [1.25.52](https://github.com/DerYeger/noted/compare/v1.25.51...v1.25.52) (2022-02-25)
 
 
