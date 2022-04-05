@@ -1,3 +1,10 @@
+## [1.25.60](https://github.com/DerYeger/noted/compare/v1.25.59...v1.25.60) (2022-04-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jszip to v3.9.0 ([76e65da](https://github.com/DerYeger/noted/commit/76e65daa5f5fe7c8873bb05d1224f8d407456bd7))
+
 ## [1.25.59](https://github.com/DerYeger/noted/compare/v1.25.58...v1.25.59) (2022-04-02)
 
 
