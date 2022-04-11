@@ -32,7 +32,7 @@
     "dompurify": "2.3.6",
     "indent-textarea": "2.1.0",
     "jszip": "3.9.1",
-    "marked": "4.0.13",
+    "marked": "4.0.14",
     "nuxt-edge": "latest",
     "prism-theme-vars": "0.2.2",
     "prismjs": "1.27.0",
