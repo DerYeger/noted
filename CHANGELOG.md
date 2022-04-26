@@ -1,3 +1,10 @@
+## [1.25.70](https://github.com/DerYeger/noted/compare/v1.25.69...v1.25.70) (2022-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/i18n to v7.2.2 ([5583adf](https://github.com/DerYeger/noted/commit/5583adfcb42cca33beecd547a6910e85a2235d8c))
+
 ## [1.25.69](https://github.com/DerYeger/noted/compare/v1.25.68...v1.25.69) (2022-04-22)
 
 
