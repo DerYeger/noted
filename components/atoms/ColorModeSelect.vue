@@ -7,5 +7,5 @@
 </template>
 
 <script setup lang="ts">
-export const colorModes = ['system', 'light', 'dark']
+const colorModes = ['system', 'light', 'dark']
 </script>
