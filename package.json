@@ -34,7 +34,7 @@
     "jszip": "3.9.1",
     "marked": "4.0.16",
     "nuxt-edge": "latest",
-    "prism-theme-vars": "0.2.2",
+    "prism-theme-vars": "0.2.3",
     "prismjs": "1.28.0",
     "splitpanes": "2.4.1",
     "uuid": "8.3.2",
