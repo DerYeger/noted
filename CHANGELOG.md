@@ -1,3 +1,10 @@
+## [1.25.82](https://github.com/DerYeger/noted/compare/v1.25.81...v1.25.82) (2022-05-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prism-theme-vars to v0.2.3 ([edc0bea](https://github.com/DerYeger/noted/commit/edc0bea91a25f1989a77dd8a4e1c0686ce5a8471))
+
 ## [1.25.81](https://github.com/DerYeger/noted/compare/v1.25.80...v1.25.81) (2022-05-20)
 
 
