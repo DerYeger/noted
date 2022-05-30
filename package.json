@@ -73,7 +73,7 @@
     "eslint-plugin-vue": "9.0.1",
     "husky": "8.0.1",
     "jest": "27.5.1",
-    "lint-staged": "12.4.2",
+    "lint-staged": "12.4.3",
     "nuxt-font-loader": "1.1.4",
     "postcss": "8.4.14",
     "postcss-html": "1.4.1",
