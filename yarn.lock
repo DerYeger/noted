@@ -12796,10 +12796,10 @@ nuxt-edge@latest:
     "@nuxt/vue-renderer-edge" "2.16.0-27358576.777a4b7f"
     "@nuxt/webpack-edge" "2.16.0-27358576.777a4b7f"
 
-nuxt-font-loader@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/nuxt-font-loader/-/nuxt-font-loader-1.1.4.tgz#888b208bfad47cdbadc2caa28588fd3a14cf7904"
-  integrity sha512-2ZyJxRIHKjKiL6sfUt29DLG+0O6+YlUAxxKV7UpVuGRt2xgQC7ZuLiDGDSJO7YzMB/AEG5bh3gqBaTmo3+i9Ew==
+nuxt-font-loader@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/nuxt-font-loader/-/nuxt-font-loader-1.1.5.tgz#0b338abc7c3564c38be38989a59ce9d55ed0de5c"
+  integrity sha512-Hzdp3/FEehBoZPDIVK2az5bl+6lEABWhTi920wDdne7/kjCK3KSmC2fd0teLZPQYF7Lwsnsr8yQBAeOeOd7aDA==
 
 nwsapi@^2.2.0:
   version "2.2.0"

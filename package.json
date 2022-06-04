@@ -74,7 +74,7 @@
     "husky": "8.0.1",
     "jest": "27.5.1",
     "lint-staged": "13.0.0",
-    "nuxt-font-loader": "1.1.4",
+    "nuxt-font-loader": "1.1.5",
     "postcss": "8.4.14",
     "postcss-html": "1.4.1",
     "prettier": "2.6.2",
