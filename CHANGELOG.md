@@ -1,3 +1,10 @@
+## [1.25.97](https://github.com/DerYeger/noted/compare/v1.25.96...v1.25.97) (2022-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue-material-design-icons to v5.1.1 ([db17b9a](https://github.com/DerYeger/noted/commit/db17b9ae8fbc5cf86a07d3cfb88570f793a2a549))
+
 ## [1.25.96](https://github.com/DerYeger/noted/compare/v1.25.95...v1.25.96) (2022-07-03)
 
 
