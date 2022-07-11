@@ -4573,10 +4573,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@yeger/vue2-masonry-wall@2.0.36":
-  version "2.0.36"
-  resolved "https://registry.yarnpkg.com/@yeger/vue2-masonry-wall/-/vue2-masonry-wall-2.0.36.tgz#b48bd48687a8a8dd88c90ad2b89d8d93cf5025fb"
-  integrity sha512-RVY5vEtHHBIIVPjt1Y8FqtzoEMCn25tJsu7KNlup2iov1D4Pb7oEt7IT2Dr23H9XHRi39rN707GuR60IJ3eofQ==
+"@yeger/vue2-masonry-wall@2.0.37":
+  version "2.0.37"
+  resolved "https://registry.yarnpkg.com/@yeger/vue2-masonry-wall/-/vue2-masonry-wall-2.0.37.tgz#a1fe482073ba7cee4ea31fb5541bc6aab76dad04"
+  integrity sha512-UmLt83qESArO0/jGkfWhyWX3cnwwxk2FIxYDtUaP/gQH7xPV/kth5bbKjnSc5m3L9TzhQxbZRQ0J6vmXlWb7HA==
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -6595,10 +6595,10 @@ core-js-compat@^3.19.1, core-js-compat@^3.21.0, core-js-compat@^3.22.1, core-js-
     browserslist "^4.20.4"
     semver "7.0.0"
 
-core-js@3.23.3:
-  version "3.23.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.3.tgz#3b977612b15da6da0c9cc4aec487e8d24f371112"
-  integrity sha512-oAKwkj9xcWNBAvGbT//WiCdOMpb9XQG92/Fe3ABFM/R16BsHgePG00mFOgKf7IsCtfj8tA1kHtf/VwErhriz5Q==
+core-js@3.23.4:
+  version "3.23.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.4.tgz#92d640faa7f48b90bbd5da239986602cfc402aa6"
+  integrity sha512-vjsKqRc1RyAJC3Ye2kYqgfdThb3zYnx9CrqoCcjMOENMtQPC7ZViBvlDxwYU/2z2NI/IPuiXw5mT4hWhddqjzQ==
 
 core-js@^2.4.0:
   version "2.6.12"
@@ -7471,10 +7471,10 @@ domhandler@^5.0.1, domhandler@^5.0.2:
   dependencies:
     domelementtype "^2.3.0"
 
-dompurify@2.3.8:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.8.tgz#224fe9ae57d7ebd9a1ae1ac18c1c1ca3f532226f"
-  integrity sha512-eVhaWoVibIzqdGYjwsBWodIQIaXFSB+cKDf4cfxLMsK0xiud6SE+/WCVx/Xw/UwQsa4cS3T2eITcdtmTg2UKcw==
+dompurify@2.3.9:
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.9.tgz#a4be5e7278338d6db09922dffcf6182cd099d70a"
+  integrity sha512-3zOnuTwup4lPV/GfGS6UzG4ub9nhSYagR/5tB3AvDEwqyy5dtyCM2dVjwGDCnrPerXifBKTYh/UWCGKK7ydhhw==
 
 domutils@^1.7.0:
   version "1.7.0"
@@ -11875,10 +11875,10 @@ markdown-escapes@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.4.tgz#c95415ef451499d7602b91095f3c8e8975f78535"
   integrity sha512-8z4efJYk43E0upd0NbVXwgSTQs6cT3T06etieCMEg7dRbzCbxUCK/GHlX8mhHRDcp+OLlHkPKsvqQTCvsRl2cg==
 
-marked@4.0.17:
-  version "4.0.17"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.17.tgz#1186193d85bb7882159cdcfc57d1dfccaffb3fe9"
-  integrity sha512-Wfk0ATOK5iPxM4ptrORkFemqroz0ZDxp5MWfYA7H/F+wO17NRWV5Ypxi6p3g2Xmw2bKeiYOl6oVnLHKxBA0VhA==
+marked@4.0.18:
+  version "4.0.18"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.18.tgz#cd0ac54b2e5610cfb90e8fd46ccaa8292c9ed569"
+  integrity sha512-wbLDJ7Zh0sqA0Vdg6aqlbT+yPxqLblpAZh1mK2+AO2twQkPywvvqQNfEPVwSSRjZ7dZcdeVBIAgiO7MMp3Dszw==
 
 mathml-tag-names@^2.1.3:
   version "2.1.3"
