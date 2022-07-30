@@ -4573,10 +4573,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@yeger/vue2-masonry-wall@2.0.39":
-  version "2.0.39"
-  resolved "https://registry.yarnpkg.com/@yeger/vue2-masonry-wall/-/vue2-masonry-wall-2.0.39.tgz#85e33fb05707d3011069b0f6731ef6469165bee7"
-  integrity sha512-/0DAKP8PSb86uHx4UP34KG4+HpiJIzQ4UmSPoli5XA3nb1WTfIo0DzJTJ1ysqUWX/8QQ58T5zJ/Xos72yXDXQA==
+"@yeger/vue2-masonry-wall@2.0.40":
+  version "2.0.40"
+  resolved "https://registry.yarnpkg.com/@yeger/vue2-masonry-wall/-/vue2-masonry-wall-2.0.40.tgz#6719bf0608216f92093c8a1178f5ee3fcd86f6d9"
+  integrity sha512-tFPgqjqolWiDMlkvMNWBFY8LOwgyG9Sboug+lhD63T6Q2tBKmNOPIR5all9xnyq00oZzXc1287VBsDdc050ggw==
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -6595,10 +6595,10 @@ core-js-compat@^3.19.1, core-js-compat@^3.21.0, core-js-compat@^3.22.1, core-js-
     browserslist "^4.20.4"
     semver "7.0.0"
 
-core-js@3.24.0:
-  version "3.24.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.24.0.tgz#4928d4e99c593a234eb1a1f9abd3122b04d3ac57"
-  integrity sha512-IeOyT8A6iK37Ep4kZDD423mpi6JfPRoPUdQwEWYiGolvn4o6j2diaRzNfDfpTdu3a5qMbrGUzKUpYpRY8jXCkQ==
+core-js@3.24.1:
+  version "3.24.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.24.1.tgz#cf7724d41724154010a6576b7b57d94c5d66e64f"
+  integrity sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==
 
 core-js@^2.4.0:
   version "2.6.12"
