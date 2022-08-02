@@ -31,7 +31,7 @@
     "core-js": "3.24.1",
     "dompurify": "2.3.10",
     "indent-textarea": "2.1.0",
-    "jszip": "3.10.0",
+    "jszip": "3.10.1",
     "marked": "4.0.18",
     "nuxt-edge": "latest",
     "prism-theme-vars": "0.2.4",
