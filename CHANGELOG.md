@@ -1,3 +1,10 @@
+## [1.25.111](https://github.com/DerYeger/noted/compare/v1.25.110...v1.25.111) (2022-08-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency css-loader to v5 ([791652c](https://github.com/DerYeger/noted/commit/791652cf8858c3a6829f9b655fca7d8d0b64aa04))
+
 ## [1.25.110](https://github.com/DerYeger/noted/compare/v1.25.109...v1.25.110) (2022-08-18)
 
 
