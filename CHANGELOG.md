@@ -1,3 +1,10 @@
+## [1.25.113](https://github.com/DerYeger/noted/compare/v1.25.112...v1.25.113) (2022-08-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-typescript to v3.5.0 ([4cc3c3f](https://github.com/DerYeger/noted/commit/4cc3c3f464cd1391830acc4aa469e4248fe06610))
+
 ## [1.25.112](https://github.com/DerYeger/noted/compare/v1.25.111...v1.25.112) (2022-08-22)
 
 
