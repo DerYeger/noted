@@ -1,3 +1,10 @@
+## [1.25.118](https://github.com/DerYeger/noted/compare/v1.25.117...v1.25.118) (2022-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-nuxt to v4 ([5ecb367](https://github.com/DerYeger/noted/commit/5ecb367d4a90ffc53454022b961ab66e677b3805))
+
 ## [1.25.117](https://github.com/DerYeger/noted/compare/v1.25.116...v1.25.117) (2022-08-27)
 
 
