@@ -1,3 +1,10 @@
+## [1.25.119](https://github.com/DerYeger/noted/compare/v1.25.118...v1.25.119) (2022-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/eslint-config-typescript to v11 ([ee7cadf](https://github.com/DerYeger/noted/commit/ee7cadf28675393cd26188723832176ffbc0e0c7))
+
 ## [1.25.118](https://github.com/DerYeger/noted/compare/v1.25.117...v1.25.118) (2022-09-03)
 
 
