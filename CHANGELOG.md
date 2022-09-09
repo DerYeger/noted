@@ -1,3 +1,10 @@
+## [1.25.120](https://github.com/DerYeger/noted/compare/v1.25.119...v1.25.120) (2022-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo ([9169e8a](https://github.com/DerYeger/noted/commit/9169e8a8531a55c1f16adf940f4fcefe3e9d4838))
+
 ## [1.25.119](https://github.com/DerYeger/noted/compare/v1.25.118...v1.25.119) (2022-09-03)
 
 
