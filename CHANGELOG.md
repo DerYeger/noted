@@ -1,3 +1,10 @@
+## [1.25.122](https://github.com/DerYeger/noted/compare/v1.25.121...v1.25.122) (2022-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue-eslint-parser to v9.1.0 ([8344269](https://github.com/DerYeger/noted/commit/8344269433c3211a500302747d9c8c25b1d81a80))
+
 ## [1.25.121](https://github.com/DerYeger/noted/compare/v1.25.120...v1.25.121) (2022-09-10)
 
 
