@@ -1,3 +1,10 @@
+## [1.25.123](https://github.com/DerYeger/noted/compare/v1.25.122...v1.25.123) (2022-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency uuid to v9 ([dc5c0c2](https://github.com/DerYeger/noted/commit/dc5c0c2e5f9f179f38e7c9cbc2bbdb8dcbb978a9))
+
 ## [1.25.122](https://github.com/DerYeger/noted/compare/v1.25.121...v1.25.122) (2022-09-10)
 
 
