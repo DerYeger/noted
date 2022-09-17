@@ -1,3 +1,10 @@
+## [1.25.125](https://github.com/DerYeger/noted/compare/v1.25.124...v1.25.125) (2022-09-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/eslint-parser to v7.19.1 ([740bd79](https://github.com/DerYeger/noted/commit/740bd7999fdaff85de498835346b5489385f9cee))
+
 ## [1.25.124](https://github.com/DerYeger/noted/compare/v1.25.123...v1.25.124) (2022-09-17)
 
 
