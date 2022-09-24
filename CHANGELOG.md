@@ -1,3 +1,10 @@
+## [1.25.126](https://github.com/DerYeger/noted/compare/v1.25.125...v1.25.126) (2022-09-24)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v6 ([3237ad1](https://github.com/DerYeger/noted/commit/3237ad1e0f9c37a0ce9213ebbfedac1af953f0d8))
+
 ## [1.25.125](https://github.com/DerYeger/noted/compare/v1.25.124...v1.25.125) (2022-09-17)
 
 
