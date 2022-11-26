@@ -1,3 +1,10 @@
+## [1.25.133](https://github.com/DerYeger/noted/compare/v1.25.132...v1.25.133) (2022-11-26)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([1934d03](https://github.com/DerYeger/noted/commit/1934d03fa7f7848b07d412b1533017277a073399))
+
 ## [1.25.132](https://github.com/DerYeger/noted/compare/v1.25.131...v1.25.132) (2022-11-19)
 
 
