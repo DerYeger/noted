@@ -1,3 +1,10 @@
+## [1.25.134](https://github.com/DerYeger/noted/compare/v1.25.133...v1.25.134) (2022-11-26)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.3.0 ([e62217d](https://github.com/DerYeger/noted/commit/e62217dcc9671015bc02e12c70d463cbd1bae6b8))
+
 ## [1.25.133](https://github.com/DerYeger/noted/compare/v1.25.132...v1.25.133) (2022-11-26)
 
 
