@@ -1,3 +1,10 @@
+## [1.25.139](https://github.com/DerYeger/noted/compare/v1.25.138...v1.25.139) (2022-12-24)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v7 ([#67](https://github.com/DerYeger/noted/issues/67)) ([3426abe](https://github.com/DerYeger/noted/commit/3426abe171dd4d720244fabb4bcba711a1567d7a))
+
 ## [1.25.138](https://github.com/DerYeger/noted/compare/v1.25.137...v1.25.138) (2022-12-24)
 
 
