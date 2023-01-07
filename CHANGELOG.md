@@ -1,3 +1,10 @@
+## [1.25.141](https://github.com/DerYeger/noted/compare/v1.25.140...v1.25.141) (2023-01-07)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([8d1468e](https://github.com/DerYeger/noted/commit/8d1468e826c2e86ec3e27547dd84f4cc189a9f42))
+
 ## [1.25.140](https://github.com/DerYeger/noted/compare/v1.25.139...v1.25.140) (2022-12-31)
 
 
