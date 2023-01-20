@@ -1,3 +1,10 @@
+## [1.25.142](https://github.com/DerYeger/noted/compare/v1.25.141...v1.25.142) (2023-01-20)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.4.2 ([0f8aeda](https://github.com/DerYeger/noted/commit/0f8aedafbbb4113f517ca57ea1ccbc5401360d70))
+
 ## [1.25.141](https://github.com/DerYeger/noted/compare/v1.25.140...v1.25.141) (2023-01-07)
 
 
