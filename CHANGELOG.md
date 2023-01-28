@@ -1,3 +1,10 @@
+## [1.25.144](https://github.com/DerYeger/noted/compare/v1.25.143...v1.25.144) (2023-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vue/test-utils to v1.3.4 ([b515273](https://github.com/DerYeger/noted/commit/b515273b72a23baf6e2206177f9949dc539ceb70))
+
 ## [1.25.143](https://github.com/DerYeger/noted/compare/v1.25.142...v1.25.143) (2023-01-21)
 
 
