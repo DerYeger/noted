@@ -1,3 +1,10 @@
+## [1.25.147](https://github.com/DerYeger/noted/compare/v1.25.146...v1.25.147) (2023-02-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v15 ([#68](https://github.com/DerYeger/noted/issues/68)) ([772bf43](https://github.com/DerYeger/noted/commit/772bf435757bbd16c4a3ff35eb72bfc854a6ff8d))
+
 ## [1.25.146](https://github.com/DerYeger/noted/compare/v1.25.145...v1.25.146) (2023-02-11)
 
 
