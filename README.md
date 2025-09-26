@@ -5,7 +5,7 @@
 <h1 align="center">Noted</h1>
 
 <p align="center">
-  <a href="https://noted.yeger.eu/">noted.yeger.eu</a>
+  <a href="https://noted.janmueller.dev/">noted.janmueller.dev</a>
 </p>
 
 <p align="center">
